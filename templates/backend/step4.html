@@ -1,0 +1,60 @@
+{% load static %}
+<section class="bg-scroll hero-section division m-5">
+    <div class="container">
+        <div class="row">
+
+                <div class="col-md-12 section-title center">
+                    <h3 class="h2-xs mb-2"><strong>Scan the Asylum ID</strong></h3>
+                    <img src="{% static 'images/sample_id.png' %}" class="mb-3">
+                    <form id="step4Form" enctype="multipart/form-data">
+                        {% csrf_token %}
+                        <input type="hidden" class="form-control" name="pk" value="{{ data.id }}" required>
+                        <div class="form-group">
+                            <label>Browse Passport Front: <label class="text-danger">*</label></label>
+                            <input type="file" name="passport_front" required>
+                        </div>
+                        <br>
+                        <div class="form-group">
+                            <label>Browse Passport Back: <label class="text-danger">*</label></label>
+                            <input type="file" name="passport_back" required>
+                        </div>
+
+                        <button class="btn btn-danger bg-danger col-lg-4">NEXT STEP</button>
+                    </form>
+                </div>
+
+        </div>
+    </div>
+</section>
+
+{% block script %}
+<script>
+    $(document).ready(function(){
+        $('#step4Form').on('submit', (e) => {
+            e.preventDefault();
+            const formData = new FormData();
+            formData.append("pk", $(e.target).find("input[name=pk]").val());
+            formData.append("csrfmiddlewaretoken", $(e.target).find("input[name=csrfmiddlewaretoken]").val());
+            let passport_front = $(e.target).find("input[name=passport_front]").map(function() {
+                formData.append("passport_front", this.files[0])
+            });
+            let passport_back = $(e.target).find("input[name=passport_back]").map(function() {
+                formData.append("passport_back", this.files[0])
+            });
+            $.ajax({
+                type: 'POST',
+                url: 'step4/',
+                data: formData,
+                contentType: false,
+                processData: false,
+                success: (result) => {
+                    console.log(result)
+                    $('#base-body').empty().append(result);
+                }
+            });
+
+        });
+
+    });
+</script>
+{% endblock %}
