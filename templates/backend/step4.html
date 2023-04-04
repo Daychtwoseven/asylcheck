@@ -11,12 +11,12 @@
                         <input type="hidden" class="form-control" name="pk" value="{{ data.id }}" required>
                         <div class="form-group">
                             <label>Browse Passport Front: <label class="text-danger">*</label></label>
-                            <input type="file" name="passport_front" required>
+                            <input type="file" name="passport_front" required accept="image/*" capture >
                         </div>
                         <br>
                         <div class="form-group">
                             <label>Browse Passport Back: <label class="text-danger">*</label></label>
-                            <input type="file" name="passport_back" required>
+                            <input type="file" name="passport_back" required accept="image/*" capture>
                         </div>
 
                         <button class="btn btn-danger bg-danger col-lg-4">NEXT STEP</button>
