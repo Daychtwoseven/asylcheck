@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-04-04 00:11+0800\n"
-"PO-Revision-Date: 2023-04-04 00:13+0000\n"
+"PO-Revision-Date: 2023-04-05 00:06+0000\n"
 "Last-Translator:   <admin@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
@@ -62,43 +62,43 @@ msgstr "Gib deinen Namen ein*"
 #, fuzzy
 #| msgid "Enter Your Name*"
 msgid "Enter Your Telephone Number*"
-msgstr "Gib deinen Namen ein*"
+msgstr "Geben Sie Ihre Telefonnummer ein*Geben Sie Ihre Telefonnummer ein*"
 
 #: .\templates\frontend\base\body.html:59
-#, fuzzy
 msgid "Send Request"
-msgstr ""
+msgstr "Anfrage senden"
 
 #: .\templates\frontend\base\body.html:88
-#, fuzzy
 msgid "You have further questions"
-msgstr ""
+msgstr "Sie haben weitere Fragen"
 
 #: .\templates\frontend\base\body.html:88
 #, fuzzy
 msgid "Send your request"
-msgstr ""
+msgstr "Senden Sie Ihre Anfrage"
 
 #: .\templates\frontend\base\body.html:88
 #, fuzzy
 msgid "for free advice!"
-msgstr ""
+msgstr "für kostenlose Beratung!"
 
 #: .\templates\frontend\base\body.html:111
 #, fuzzy
 msgid "Our approach"
-msgstr ""
+msgstr "Unser Vorgehen"
 
 #: .\templates\frontend\base\body.html:114
 #, fuzzy
 msgid ""
 "For you, we offer a service that you can use to bring a complaint online."
 msgstr ""
+"Für Sie bieten wir einen Service an, mit dem Sie eine Beschwerde online "
+"einreichen können."
 
 #: .\templates\frontend\base\body.html:133
 #, fuzzy
 msgid "Enter Details"
-msgstr ""
+msgstr "Details eingeben"
 
 #: .\templates\frontend\base\body.html:134
 #, fuzzy
@@ -107,11 +107,14 @@ msgid ""
 "mobile phone number and a photo of your asylum ID. We check free of charge "
 "whether our lawyers can file a default complaint."
 msgstr ""
+"Für Ihre Versäumnisbeschwerde benötigen wir lediglich Ihren Vor- und "
+"Nachnamen, Ihre Handynummer und ein Foto Ihres Asylausweises. Wir prüfen "
+"kostenlos, ob unsere Anwälte eine Mahnung einreichen können."
 
 #: .\templates\frontend\base\body.html:152
 #, fuzzy
 msgid "Commission Legal Experts Free of Charge"
-msgstr ""
+msgstr "Kostenlose Beauftragung von Rechtsexperten"
 
 #: .\templates\frontend\base\body.html:153
 #, fuzzy
@@ -120,11 +123,14 @@ msgid ""
 "less than 24 hours. You will always be informed about the course. You will "
 "not incur any costs."
 msgstr ""
+"Wenn Sie uns beauftragen, reichen wir Ihre Nichterfüllungsbeschwerde in "
+"durchschnittlich weniger als 24 Stunden ein. Sie werden immer über den Kurs "
+"informiert. Es entstehen Ihnen keine Kosten."
 
 #: .\templates\frontend\base\body.html:171
 #, fuzzy
 msgid "You will Receive a Notification within 3 Months"
-msgstr ""
+msgstr "Sie erhalten innerhalb von 3 Monaten eine Benachrichtigung"
 
 #: .\templates\frontend\base\body.html:172
 #, fuzzy
@@ -132,16 +138,18 @@ msgid ""
 "From the complaint, the BFA is obliged to issue a decision within 3 months. "
 "This is how you get your right. "
 msgstr ""
+"Ab der Beschwerde ist das BFA verpflichtet, innerhalb von 3 Monaten eine "
+"Entscheidung zu erlassen. So kommen Sie zu Ihrem Recht."
 
 #: .\templates\frontend\base\body.html:216
 #, fuzzy
 msgid "WE SUPPORT YOU"
-msgstr ""
+msgstr "WIR UNTERSTÜTZEN DICH"
 
 #: .\templates\frontend\base\body.html:219
 #, fuzzy
 msgid "Our lawyers for your right"
-msgstr ""
+msgstr "Unsere Anwälte für Ihr Recht"
 
 #: .\templates\frontend\base\body.html:222
 #, fuzzy
@@ -152,16 +160,21 @@ msgid ""
 "is free of charge for you. The Republic of Austria pays the costs for the "
 "intervention."
 msgstr ""
+"Leider kommt das BFA der gesetzlichen Verpflichtung zur Abgabe der Anzeige "
+"innerhalb von 6 Monaten regelmäßig nicht nach. Mit asylcheck24.at reichen "
+"wir diese Beschwerde für Sie durch einen in Österreich zugelassenen "
+"Rechtsanwalt ein. Die Einreichung ist für Sie kostenlos. Die Kosten der "
+"Intervention trägt die Republik Österreich."
 
 #: .\templates\frontend\base\body.html:247
 #, fuzzy
 msgid "WE REQUEST"
-msgstr ""
+msgstr "WIR VERLANGEN"
 
 #: .\templates\frontend\base\body.html:250
 #, fuzzy
 msgid "YOUR CERTIFICATE WITHIN 8 WEEKS"
-msgstr ""
+msgstr "IHR ZERTIFIKAT INNERHALB VON 8 WOCHEN"
 
 #: .\templates\frontend\base\body.html:255
 #, fuzzy
@@ -171,6 +184,9 @@ msgid ""
 " Office for Foreign Affairs and Asylum and in accordance with Section 28 (7)"
 " 1. Case VwGVG to decide for itself."
 msgstr ""
+"Das Bundesverwaltungsgericht kann der Versäumnisbeschwerde stattgeben, die "
+"Verletzung der Entscheidungspflicht durch das Bundesamt für Äußeres und Asyl"
+" feststellen und gemäß § 28 Abs. 7 Satz 1 VwGVG für sich entscheiden."
 
 #: .\templates\frontend\base\body.html:261
 #, fuzzy
@@ -181,121 +197,125 @@ msgid ""
 "accordance with Section 28 (7) 2. Case VwGVG to issue the missed decision "
 "within 8 weeks."
 msgstr ""
+"Das Bundesverwaltungsgericht kann der Versäumnisbeschwerde stattgeben, die "
+"Verletzung der Entscheidungspflicht seitens des Bundesamtes für Äußeres und "
+"Asyl feststellen und die säumige Behörde gemäß § 28 Abs. 7 Satz 2 VwGVG "
+"erlassen verpasste Entscheidung innerhalb von 8 Wochen."
 
 #: .\templates\frontend\base\body.html:266
 #, fuzzy
 msgid "SUBMIT A COMPLAINT NOW."
-msgstr ""
+msgstr "JETZT EINE BESCHWERDE EINREICHEN."
 
 #: .\templates\frontend\base\body.html:300
 #, fuzzy
 msgid "Do you have any questions ? Look here."
-msgstr ""
+msgstr "Haben Sie irgendwelche Fragen ? Schau hier."
 
 #: .\templates\frontend\base\body.html:303
 #, fuzzy
 msgid "Our unique service offers you the opportunity"
-msgstr ""
+msgstr "Unser einzigartiger Service bietet Ihnen die Möglichkeit"
 
 #: .\templates\frontend\base\body.html:323
 #, fuzzy
 msgid "What data do you need from me?"
-msgstr ""
+msgstr "Welche Daten benötigen Sie von mir?"
 
 #: .\templates\frontend\base\body.html:363
 #, fuzzy
 msgid "What costs can arise?"
-msgstr ""
+msgstr "Welche Kosten können entstehen?"
 
 #: .\templates\frontend\base\body.html:391
 #, fuzzy
 msgid "Who pays the Lawyer?"
-msgstr ""
+msgstr "Wer bezahlt den Anwalt?"
 
 #: .\templates\frontend\base\body.html:435
 #, fuzzy
 msgid "You have further questions?"
-msgstr ""
+msgstr "Sie haben weitere Fragen?"
 
 #: .\templates\frontend\base\body.html:435
 #, fuzzy
 msgid "Send us your request"
-msgstr ""
+msgstr "Senden Sie uns Ihre Anfrage"
 
 #: .\templates\frontend\base\body.html:435
 #, fuzzy
 msgid "for free advice."
-msgstr ""
+msgstr "für kostenlose Beratung."
 
 #: .\templates\frontend\base\body.html:457
 #, fuzzy
 msgid "Our Users say that"
-msgstr ""
+msgstr "Das sagen unsere Benutzer"
 
 #: .\templates\frontend\base\body.html:516
 #, fuzzy
 msgid "(Canada Studients Visa)"
-msgstr ""
+msgstr "(Kanadisches Studienvisum)"
 
 #: .\templates\frontend\base\body.html:545
 #, fuzzy
 msgid "(Singapore PR Visa)"
-msgstr ""
+msgstr "(Singapur PR-Visum)"
 
 #: .\templates\frontend\base\body.html:573
 #, fuzzy
 msgid "(USA Studients Visa)"
-msgstr ""
+msgstr "(USA Studienvisum)"
 
 #: .\templates\frontend\base\body.html:601
 #, fuzzy
 msgid "(France Working Visa)"
-msgstr ""
+msgstr "(Arbeitsvisum Frankreich)"
 
 #: .\templates\frontend\base\body.html:630
 #, fuzzy
 msgid "(Germany Travel Visa)"
-msgstr ""
+msgstr "(Reisevisum Deutschland)"
 
 #: .\templates\frontend\base\body.html:658
 #, fuzzy
 msgid "(Austrlia PR Visa)"
-msgstr ""
+msgstr "(Österreichisches PR-Visum)"
 
 #: .\templates\frontend\base\index.html:152
 #, fuzzy
 msgid "Our Service"
-msgstr ""
+msgstr "Unser Service"
 
 #: .\templates\frontend\base\index.html:194
 #, fuzzy
 msgid "More"
-msgstr ""
+msgstr "Mehr"
 
 #: .\templates\frontend\base\index.html:204
 #, fuzzy
 msgid "What We Offer:"
-msgstr ""
+msgstr "Was wir anbieten:"
 
 #: .\templates\frontend\base\index.html:223
 #, fuzzy
 msgid "Featured News:"
-msgstr ""
+msgstr "Vorgeschlagene Nachrichten:"
 
 #: .\templates\frontend\base\index.html:229
 #, fuzzy
 msgid "We make the visa process faster"
-msgstr ""
+msgstr "Wir beschleunigen den Visumsprozess"
 
 #: .\templates\frontend\base\index.html:298
 #, fuzzy
 msgid "SUBMIT COMPLAINT"
-msgstr ""
+msgstr "BESCHWERDE EINREICHEN"
 
 #: .\templates\frontend\base\index.html:337
 #, fuzzy
 msgid "Privacy Policy"
-msgstr ""
+msgstr "Datenschutz-Bestimmungen"
 
 #: .\templates\frontend\base\index.html:338
 #, fuzzy
@@ -305,12 +325,12 @@ msgstr "Impressum"
 #: .\templates\frontend\base\index.html:352
 #, fuzzy
 msgid "Copyright"
-msgstr ""
+msgstr "Urheberrechte ©"
 
 #: .\templates\frontend\base\index.html:352
 #, fuzzy
 msgid "All Rights Reserved"
-msgstr ""
+msgstr "Alle Rechte vorbehalten"
 
 #: .\venv\Lib\site-packages\django\contrib\messages\apps.py:15
 msgid "Messages"
