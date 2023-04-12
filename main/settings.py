@@ -127,7 +127,7 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 LANGUAGES = (
     ('en', _('English')),
     ('de', _('German')),
-    ('fr', _('French'))
+    #('fr', _('French'))
 )
 
 LOCALE_PATHS = (

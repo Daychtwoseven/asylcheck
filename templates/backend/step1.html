@@ -1,12 +1,13 @@
+{% load i18n %}
 <section class="bg-scroll hero-section division m-5">
     <div class="container">
         <div class="row">
             <div class="col-md-12 section-title center">
-                <h2 class="h2-xs mb-5"><strong>Are you currently an asylum seeker and have not yet received an asylum notice?</strong></h2>
+                <h2 class="h2-xs mb-5"><strong>{% trans 'Are you currently an asylum seeker and have not yet received an asylum notice?' %}</strong></h2>
 
-                <button class="btn btn-danger bg-danger mt-2" type="button" onClick="submitStep('{{data.id}}', 'True')">I RECEIVED AN ASYLUM NOTICE.</button>
+                <button class="btn btn-danger bg-danger mt-2" type="button" onClick="submitStep('{{data.id}}', 'True')">{% trans 'I RECEIVED AN ASYLUM NOTICE.' %}</button>
                 <br>
-                <button class="btn btn-danger bg-danger" type="submit" onClick="submitStep('{{data.id}}', 'True')">I HAVE NOT RECEIVED AN ASYLUM NOTICE.</button>
+                <button class="btn btn-danger bg-danger" type="submit" onClick="submitStep('{{data.id}}', 'True')">{% trans 'I HAVE NOT RECEIVED AN ASYLUM NOTICE.' %}</button>
             </div>
         </div>
     </div>

@@ -1,3 +1,4 @@
+{% load i18n %}
 <section class="bg-scroll hero-section division m-5">
     <div class="container">
         <div class="row">
@@ -5,11 +6,11 @@
                 <div class="col-md-12 section-title center">
                     <form id="step3Form">
                         {% csrf_token %}
-                        <h4 class="h2-xs mb-2"><strong>Enter Verification Code Now</strong></h4>
-                        <p class="mb-3">Please enter Verification Code:</p>
+                        <h4 class="h2-xs mb-2"><strong>{% trans 'Enter Verification Code Now' %}</strong></h4>
+                        <p class="mb-3">{% trans 'Please enter Verification Code' %}:</p>
                         <input type="hidden" class="form-control" name="pk" value="{{ data.id }}" required>
-                        <input type="text" class="form-control" name="code" placeholder="Enter Verification Code*" required>
-                        <button class="btn btn-danger bg-danger col-lg-4">CONFIRM CODE NOW</button>
+                        <input type="text" class="form-control" name="code" placeholder="{% trans 'Enter Verification Code*' %}" required>
+                        <button class="btn btn-danger bg-danger col-lg-4">{% trans 'CONFIRM CODE NOW' %}</button>
                     </form>
                 </div>
 

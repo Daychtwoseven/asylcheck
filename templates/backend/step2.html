@@ -1,3 +1,4 @@
+{% load i18n %}
 <section class="bg-scroll hero-section division m-5">
     <div class="container">
         <div class="row">
@@ -5,11 +6,11 @@
                 <div class="col-md-12 section-title center">
                     <form id="step2Form">
                         {% csrf_token %}
-                        <h2 class="h2-xs mb-2"><strong>How can we inform you about the current status ?</strong></h2>
-                        <p class="mb-3">We will send you an SMS for checking.</p>
+                        <h2 class="h2-xs mb-2"><strong>{% trans 'How can we inform you about the current status ?' %}</strong></h2>
+                        <p class="mb-3">{% trans 'We will send you an SMS for checking.' %}</p>
                         <input type="hidden" class="form-control" name="pk" value="{{ data.id }}" required>
-                        <input type="text" class="form-control" name="phone" placeholder="Enter Telephone Number*" required>
-                        <button class="btn btn-danger bg-danger col-lg-3">SEND CODE NOW</button>
+                        <input type="text" class="form-control" name="phone" placeholder="{% trans 'Enter Telephone Number*' %}" required>
+                        <button class="btn btn-danger bg-danger col-lg-3">{% trans 'SEND CODE NOW' %}</button>
                     </form>
                 </div>
 
