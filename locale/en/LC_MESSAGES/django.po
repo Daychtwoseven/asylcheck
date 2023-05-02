@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-04-05 01:59+0800\n"
+"POT-Creation-Date: 2023-05-01 18:47+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -182,14 +182,10 @@ msgid ""
 msgstr ""
 
 #: .\templates\frontend\base\body.html:247
-msgid "WE REQUEST"
-msgstr ""
-
-#: .\templates\frontend\base\body.html:250
 msgid "YOUR CERTIFICATE WITHIN 8 WEEKS"
 msgstr ""
 
-#: .\templates\frontend\base\body.html:255
+#: .\templates\frontend\base\body.html:252
 msgid ""
 "The Federal Administrative Court may grant the default complaint, determine "
 "the violation of the obligation to make decisions on the part of the Federal "
@@ -197,7 +193,7 @@ msgid ""
 "1. Case VwGVG to decide for itself."
 msgstr ""
 
-#: .\templates\frontend\base\body.html:261
+#: .\templates\frontend\base\body.html:258
 msgid ""
 "The Federal Administrative Court may grant the default complaint, determine "
 "the violation of the obligation to make decisions on the part of the Federal "
@@ -206,115 +202,143 @@ msgid ""
 "within 8 weeks."
 msgstr ""
 
-#: .\templates\frontend\base\body.html:266
+#: .\templates\frontend\base\body.html:263
 msgid "SUBMIT A COMPLAINT NOW."
 msgstr ""
 
-#: .\templates\frontend\base\body.html:300
+#: .\templates\frontend\base\body.html:297
 msgid "Do you have any questions ? Look here."
 msgstr ""
 
-#: .\templates\frontend\base\body.html:303
-msgid "Our unique service offers you the opportunity"
-msgstr ""
-
-#: .\templates\frontend\base\body.html:323
+#: .\templates\frontend\base\body.html:315
 msgid "What data do you need from me?"
 msgstr ""
 
-#: .\templates\frontend\base\body.html:363
+#: .\templates\frontend\base\body.html:327
+msgid "First Name, Last Name, Date of Birth, Mobile Number, White Card."
+msgstr ""
+
+#: .\templates\frontend\base\body.html:345
 msgid "What costs can arise?"
 msgstr ""
 
-#: .\templates\frontend\base\body.html:391
+#: .\templates\frontend\base\body.html:354
+msgid "I would give away"
+msgstr ""
+
+#: .\templates\frontend\base\body.html:370
 msgid "Who pays the Lawyer?"
 msgstr ""
 
-#: .\templates\frontend\base\body.html:435
+#: .\templates\frontend\base\body.html:380
+msgid ""
+"We will cover the costs of the lawyer for you. If the default complaint is "
+"successful, we will try to recover the costs of the default complaint from "
+"the state on your behalf."
+msgstr ""
+
+#: .\templates\frontend\base\body.html:392
+msgid "How long will it take?"
+msgstr ""
+
+#: .\templates\frontend\base\body.html:402
+msgid ""
+"We cannot guarantee that. The law sets deadlines, but experience has shown "
+"that these are often not met. Even after the complaint about late payment "
+"has been filed, it can be weeks or months before you receive a decision."
+msgstr ""
+
+#: .\templates\frontend\base\body.html:414
+msgid ""
+"Do I face disadvantages in the asylum procedure if I file a complaint about "
+"late payment?"
+msgstr ""
+
+#: .\templates\frontend\base\body.html:439
 msgid "You have further questions?"
 msgstr ""
 
-#: .\templates\frontend\base\body.html:435
+#: .\templates\frontend\base\body.html:439
 msgid "Send us your request"
 msgstr ""
 
-#: .\templates\frontend\base\body.html:435
+#: .\templates\frontend\base\body.html:439
 msgid "for free advice."
 msgstr ""
 
-#: .\templates\frontend\base\body.html:457
+#: .\templates\frontend\base\body.html:461
 msgid "Our Users say that"
 msgstr ""
 
-#: .\templates\frontend\base\body.html:516
+#: .\templates\frontend\base\body.html:520
 msgid "(Canada Studients Visa)"
 msgstr ""
 
-#: .\templates\frontend\base\body.html:545
+#: .\templates\frontend\base\body.html:549
 msgid "(Singapore PR Visa)"
 msgstr ""
 
-#: .\templates\frontend\base\body.html:573
+#: .\templates\frontend\base\body.html:577
 msgid "(USA Studients Visa)"
 msgstr ""
 
-#: .\templates\frontend\base\body.html:601
+#: .\templates\frontend\base\body.html:605
 msgid "(France Working Visa)"
 msgstr ""
 
-#: .\templates\frontend\base\body.html:630
+#: .\templates\frontend\base\body.html:634
 msgid "(Germany Travel Visa)"
 msgstr ""
 
-#: .\templates\frontend\base\body.html:658
+#: .\templates\frontend\base\body.html:662
 msgid "(Austrlia PR Visa)"
 msgstr ""
 
-#: .\templates\frontend\base\index.html:140
+#: .\templates\frontend\base\index.html:138
 msgid "Home"
 msgstr ""
 
-#: .\templates\frontend\base\index.html:152
+#: .\templates\frontend\base\index.html:150
 msgid "More"
 msgstr ""
 
-#: .\templates\frontend\base\index.html:162
+#: .\templates\frontend\base\index.html:160
 msgid "What We Offer:"
 msgstr ""
 
-#: .\templates\frontend\base\index.html:181
+#: .\templates\frontend\base\index.html:179
 msgid "Featured News:"
 msgstr ""
 
-#: .\templates\frontend\base\index.html:187
+#: .\templates\frontend\base\index.html:185
 msgid "We make the visa process faster"
 msgstr ""
 
-#: .\templates\frontend\base\index.html:254
+#: .\templates\frontend\base\index.html:252
 msgid "Languages"
 msgstr ""
 
-#: .\templates\frontend\base\index.html:267
+#: .\templates\frontend\base\index.html:265
 msgid "SUBMIT COMPLAINT"
 msgstr ""
 
-#: .\templates\frontend\base\index.html:301
+#: .\templates\frontend\base\index.html:299
 msgid "More Links"
 msgstr ""
 
-#: .\templates\frontend\base\index.html:306
+#: .\templates\frontend\base\index.html:304
 msgid "Privacy Policy"
 msgstr ""
 
-#: .\templates\frontend\base\index.html:307
+#: .\templates\frontend\base\index.html:305
 msgid "Imprint"
 msgstr ""
 
-#: .\templates\frontend\base\index.html:321
+#: .\templates\frontend\base\index.html:319
 msgid "Copyright"
 msgstr ""
 
-#: .\templates\frontend\base\index.html:321
+#: .\templates\frontend\base\index.html:319
 msgid "All Rights Reserved"
 msgstr ""
 

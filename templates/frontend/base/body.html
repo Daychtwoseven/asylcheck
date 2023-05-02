@@ -46,6 +46,7 @@
                                 <option value="+43676">+43676</option>
                                 <option value="+43699">+43699</option>
                                 <option value="+43660">+43660</option>
+                                <option value="+43664">+43664</option>
                             </select>
                         </div>
 
@@ -126,7 +127,7 @@
                     <a href="visa-details.html">
 
                         <!-- Icon -->
-                        <div class="sbox-4-icon primary-color"><span class="flaticon-431-bank"></span></div>
+                        <div class="sbox-4-icon primary-color"><span class="flaticon-174-pencil"></span></div>
 
                         <!-- Text -->
                         <div class="sbox-4-txt">
@@ -145,7 +146,7 @@
                     <a href="visa-details.html">
 
                         <!-- Icon -->
-                        <div class="sbox-4-icon primary-color"><span class="flaticon-023-wallet"></span></div>
+                        <div class="sbox-4-icon primary-color"><span class="flaticon-032-user-3"></span></div>
 
                         <!-- Text -->
                         <div class="sbox-4-txt">
@@ -164,12 +165,13 @@
                     <a href="visa-details.html">
 
                         <!-- Icon -->
-                        <div class="sbox-4-icon primary-color"><span class="flaticon-004-wrench"></span></div>
+                        <div class="sbox-4-icon primary-color"><span class="flaticon-220-smartphone"></span></div>
 
                         <!-- Text -->
                         <div class="sbox-4-txt">
                             <h5 class="h5-md darkblue-color">{% trans 'You will Receive a Notification within 3 Months' %}</h5>
-                            <p>{% trans 'From the complaint, the BFA is obliged to issue a decision within 3 months. This is how you get your right. ' %}</p>
+                            <p>{% trans 'From the complaint, the BFA is obliged to issue a decision within 3 months. This is how you get your right. ' %}
+                            </p>
                         </div>
 
                     </a>
@@ -243,9 +245,6 @@
             <div class="col-lg-7 col-xl-6">
                 <div class="about-4-txt mb-40">
 
-                    <!-- Section ID -->
-                    <span class="section-id id-color">{% trans 'WE REQUEST' %}</span>
-
                     <!-- Title -->
                     <h3 class="h3-lg darkblue-color">{% trans 'YOUR CERTIFICATE WITHIN 8 WEEKS' %}</h3>
 
@@ -298,11 +297,6 @@
 
                 <!-- Title -->
                 <h2 class="h2-xs darkblue-color">{% trans 'Do you have any questions ? Look here.' %}</h2>
-
-                <!-- Text -->
-                <p class="p-md">{% trans 'Our unique service offers you the opportunity' %}
-                </p>
-
             </div>
         </div>	 <!-- END SECTION TITLE -->
 
@@ -332,17 +326,7 @@
                                 <!-- INFO BOX #1 -->
                                 <div class="box-list">
                                     <div class="box-list-icon"><i class="fas fa-genderless"></i></div>
-                                    <p>{% trans 'An magnis nulla dolor sapien augue erat iaculis purus tempor magna ipsum vitae purus
-                                       primis pretium ligula rutrum luctus blandit porta justo integer. Feugiat a primis ultrice
-                                       ligula risus auctor rhoncus purus ipsum primis' %}
-                                    </p>
-                                </div>
-
-                                <!-- INFO BOX #2 -->
-                                <div class="box-list">
-                                    <div class="box-list-icon"><i class="fas fa-genderless"></i></div>
-                                    <p>{% trans 'Nemo ipsam egestas volute turpis dolores ut aliquam quaerat sodales sapien undo pretium
-                                       purus ligula tempus ipsum undo auctor a mauris lectus ipsum blandit porta justo integer' %}
+                                    <p>{% trans 'First Name, Last Name, Date of Birth, Mobile Number, White Card.' %}
                                     </p>
                                 </div>
 
@@ -369,10 +353,7 @@
                         <div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo" data-parent="#accordion">
                             <div class="card-body">
 
-                                <p>{% trans 'Maecenas gravida porttitor nunc, quis vehicula magna luctus tempor. Quisque vel laoreet
-                                   turpis. Urna augue, viverra a augue eget, dictum tempor diam. Sed pulvinar consectetur
-                                   nibh, vel imperdiet dui varius viverra. Pellentesque ac massa lorem. Fusce eu cursus est.
-                                   Fusce non nulla vitae massa placerat vulputate vel a purus' %}
+                                <p>{% trans 'I would give away' %}
                                 </p>
 
                              </div>
@@ -398,32 +379,57 @@
                             <div class="card-body">
 
                                 <!-- Text -->
-                                <p>{% trans 'Nullam rutrum eget nunc varius etiam mollis risus congue aliquam etiam sapien egestas,
-                                   congue gestas posuere cubilia congue ipsum mauris lectus laoreet gestas neque vitae
-                                   auctor eros dolor luctus odio placerat magna cursus' %}
+                                <p>{% trans 'We will cover the costs of the lawyer for you. If the default complaint is successful, we will try to recover the costs of the default complaint from the state on your behalf.' %}
                                 </p>
-
-                                <!-- INFO BOX #1 -->
-                                <div class="box-list">
-                                    <div class="box-list-icon"><i class="fas fa-genderless"></i></div>
-                                    <p>{% trans 'An magnis nulla dolor sapien augue erat iaculis purus tempor magna ipsum vitae purus
-                                       primis pretium ligula rutrum luctus blandit porta justo integer. Feugiat a primis ultrice
-                                       ligula risus auctor rhoncus purus ipsum primis' %}
-                                    </p>
-                                </div>
-
-                                <!-- INFO BOX #2 -->
-                                <div class="box-list">
-                                    <div class="box-list-icon"><i class="fas fa-genderless"></i></div>
-                                    <p>{% trans 'uaerat sodales sapien undo euismod purus blandit laoreet augue an augue egestas. Augue
-                                       iaculis purus tempor congue magna egestas magna ligula rutrum luctus risus ultrice undo
-                                       luctus integer congue magna at pretium' %}
-                                    </p>
-                                </div>
-
                             </div>
                         </div>
                     </div>
+
+                    <div class="card">
+
+                        <!-- Question -->
+                        <div class="card-header" role="tab" id="headingFour">
+                            <h5 class="h5-sm darkblue-color">
+                                <a class="collapsed" data-toggle="collapse" href="#collapseFour" role="button" aria-expanded="false" aria-controls="collapseThree">
+                                    <span>4.</span> {% trans 'How long will it take?' %}
+                                </a>
+                             </h5>
+                        </div>
+
+                        <!-- Answer -->
+                        <div id="collapseFour" class="collapse" role="tabpanel" aria-labelledby="headingThree" data-parent="#accordion">
+                            <div class="card-body">
+
+                                <!-- Text -->
+                                <p>{% trans 'We cannot guarantee that. The law sets deadlines, but experience has shown that these are often not met. Even after the complaint about late payment has been filed, it can be weeks or months before you receive a decision.' %}
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+
+                        <!-- Question -->
+                        <div class="card-header" role="tab" id="headingFive">
+                            <h5 class="h5-sm darkblue-color">
+                                <a class="collapsed" data-toggle="collapse" href="#collapseFive" role="button" aria-expanded="false" aria-controls="collapseThree">
+                                    <span>5.</span> {% trans 'Do I face disadvantages in the asylum procedure if I file a complaint about late payment?' %}
+                                </a>
+                             </h5>
+                        </div>
+
+                        <!-- Answer -->
+                        <div id="collapseFive" class="collapse" role="tabpanel" aria-labelledby="headingThree" data-parent="#accordion">
+                            <div class="card-body">
+
+                                <!-- Text -->
+                                <p>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+
                 </div>	<!-- END ACCORDION -->
             </div>  <!-- End col-x -->
         </div>	<!-- END QUESTIONS HOLDER -->

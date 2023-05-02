@@ -1,0 +1,18 @@
+
+Hope you enjoy your new logo, here are the people that
+made your beautiful logo happen :)
+font name: NewsCycle-Bold
+font link: https://fonts.google.com/specimen/News+Cycle
+font author: Nathan Willis
+font author site: https://www.glyphography.com/fonts/
+Slogan Font: NewsCycle-Bold
+
+icon designer: Ilsur Aptukov
+icon designer link: /Ilsur
+        
+
+fontColor: {"hex":"#f12a02"}
+bgColor: {"hex":"#FFFFFF"}
+iconColor: {"hex":"#f12a02"}
+sloganColor: {"hex":"#2c3f69"}
+      
