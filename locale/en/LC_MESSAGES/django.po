@@ -8,15 +8,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-05-03 07:43+0800\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2023-05-04 07:37+0800\n"
+"PO-Revision-Date: 2023-05-04 07:42+0000\n"
+"Last-Translator:   <admin@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Translated-Using: django-rosetta 0.9.8\n"
 
 #: .\main\settings.py:128
 msgid "English"
@@ -31,34 +32,35 @@ msgid ""
 "Are you currently an asylum seeker and have not yet received an asylum "
 "notice?"
 msgstr ""
+"Sie sind aktuell Asylbewerber und haben noch keinen Asylbescheid erhalten?"
 
 #: .\templates\backend\step1.html:8
 msgid "I RECEIVED AN ASYLUM NOTICE."
-msgstr ""
+msgstr "Ich habe einen Asylbescheid erhalten."
 
 #: .\templates\backend\step1.html:10
 msgid "I HAVE NOT RECEIVED AN ASYLUM NOTICE."
-msgstr ""
+msgstr "ICH HABE KEINEN ASYLBEscheid ERHALTEN."
 
 #: .\templates\backend\step2.html:9
 msgid "How can we inform you about the current status ?"
-msgstr ""
+msgstr "Wie können wir Sie über den aktuellen Stand informieren?"
 
 #: .\templates\backend\step2.html:10
 msgid "We will send you an SMS for checking."
-msgstr ""
+msgstr "Wir senden Ihnen eine SMS zur Überprüfung."
 
 #: .\templates\backend\step2.html:12
 msgid "Enter Telephone Number*"
-msgstr ""
+msgstr "Telefonnummer eingeben*"
 
 #: .\templates\backend\step2.html:13
 msgid "SEND CODE NOW"
-msgstr ""
+msgstr "JETZT CODE SENDEN"
 
 #: .\templates\backend\step3.html:9
 msgid "Enter Verification Code Now"
-msgstr ""
+msgstr "Geben Sie jetzt den Bestätigungscode ein"
 
 #: .\templates\backend\step3.html:10
 msgid "Please enter Verification Code"
@@ -97,10 +99,12 @@ msgid ""
 "Thank you for your document, Your document is on hold and will be processed "
 "shortly."
 msgstr ""
+"Vielen Dank für Ihr Dokument. Ihr Dokument ist zurückgestellt und wird in "
+"Kürze bearbeitet."
 
 #: .\templates\frontend\base\body.html:18
 msgid "Your complaint within 24 hours"
-msgstr ""
+msgstr "Ihre Beschwerde innerhalb von 24 Stunden"
 
 #: .\templates\frontend\base\body.html:21
 msgid ""
@@ -108,42 +112,46 @@ msgid ""
 "application for international protection under the AsylumG, you have the "
 "right to a default complaint."
 msgstr ""
+"Wenn Sie als Asylbewerber keine Entscheidung des BFA über den Antrag auf "
+"internationalen Schutz nach dem AsylG erhalten, haben Sie das Recht auf eine"
+" Versäumnisklage."
 
 #: .\templates\frontend\base\body.html:35
 msgid "Submit Free Late Payment Complaint Now"
 msgstr ""
+"Reichen Sie jetzt eine kostenlose Beschwerde über verspätete Zahlung ein"
 
 #: .\templates\frontend\base\body.html:40
 msgid "Enter Your Name*"
-msgstr ""
+msgstr "Gib deinen Namen ein*"
 
 #: .\templates\frontend\base\body.html:55
 msgid "Enter Your Telephone Number*"
-msgstr ""
+msgstr "Geben Sie Ihre Telefonnummer ein*"
 
 #: .\templates\frontend\base\body.html:60
 msgid "Send Request"
-msgstr ""
+msgstr "Anfrage senden"
 
 #: .\templates\frontend\base\body.html:89
 msgid "You have further questions"
-msgstr ""
+msgstr "Sie haben weitere Fragen"
 
 #: .\templates\frontend\base\body.html:89
 msgid "Send your request"
-msgstr ""
+msgstr "Senden Sie Ihre Anfrage"
 
 #: .\templates\frontend\base\body.html:89
 msgid "for free advice!"
-msgstr ""
+msgstr "für kostenlose Beratung!"
 
 #: .\templates\frontend\base\body.html:112
-#: .\templates\frontend\base\body.html:464
+#: .\templates\frontend\base\body.html:459
 msgid "Our approach"
 msgstr ""
 
 #: .\templates\frontend\base\body.html:115
-#: .\templates\frontend\base\body.html:468
+#: .\templates\frontend\base\body.html:463
 msgid ""
 "For you, we offer a service that you can use to bring a complaint online."
 msgstr ""
@@ -190,47 +198,58 @@ msgstr ""
 
 #: .\templates\frontend\base\body.html:224
 msgid ""
-"Unfortunately, the BFA regularly does not comply with the statutory "
-"obligation to issue the notification within 6 months. With asylcheck24.at we "
-"submit this complaint for you by a lawyer admitted in Austria. Submission is "
-"free of charge for you. The Republic of Austria pays the costs for the "
-"intervention."
+"The law guarantees you that you will receive a decision from the competent "
+"authority within 6 months of your application, which IS the time of the "
+"initial interview. The competent authority is the Federal Office for "
+"Immigration and Asylum (BFA). It may be that the asylum applied for is "
+"granted, it may be that they do not receive asylum but receive subsidiary "
+"protection, or they may receive no protection at all, for example if another"
+" country is responsible for the asylum procedure or if there is no authority"
+" reason for asylum can be established."
 msgstr ""
+"Das Gesetz garantiert Ihnen, dass Sie innerhalb von 6 Monaten nach Ihrem "
+"Antrag, also dem Zeitpunkt des Erstgesprächs, eine Entscheidung der "
+"zuständigen Behörde erhalten. Zuständige Behörde ist das Bundesamt für "
+"Fremdenwesen und Asyl (BFA). Es kann sein, dass das beantragte Asyl gewährt "
+"wird, es kann sein, dass sie kein Asyl, aber subsidiären Schutz erhalten, "
+"oder sie erhalten gar keinen Schutz, zum Beispiel wenn ein anderes Land für "
+"das Asylverfahren zuständig ist oder es keinen gibt Behörde Asylgrund "
+"festgestellt werden kann."
 
 #: .\templates\frontend\base\body.html:249
 msgid "YOUR CERTIFICATE WITHIN 8 WEEKS"
-msgstr ""
+msgstr "IHR ZERTIFIKAT INNERHALB VON 8 WOCHEN"
 
 #: .\templates\frontend\base\body.html:254
 msgid ""
-"The Federal Administrative Court may grant the default complaint, determine "
-"the violation of the obligation to make decisions on the part of the Federal "
-"Office for Foreign Affairs and Asylum and in accordance with Section 28 (7) "
-"1. Case VwGVG to decide for itself."
+"Since the BFA has to process many asylum applications, the legally "
+"stipulated maximum period of 6 months cannot be observed in many cases. What"
+" can you do about it? Of course you have to appear at the appointments, you "
+"have to participate in the procedure and, if possible, provide documents and"
+" information. In most cases you do this anyway and the deadline is still not"
+" met. You therefore have the right to complain about it"
 msgstr ""
+"Da das BFA viele Asylanträge zu bearbeiten hat, kann die gesetzlich "
+"vorgeschriebene Höchstfrist von 6 Monaten in vielen Fällen nicht eingehalten"
+" werden. Was können Sie dagegen tun? Natürlich müssen Sie zu den Terminen "
+"erscheinen, am Verfahren teilnehmen und möglichst Unterlagen und "
+"Informationen vorlegen. In den meisten Fällen tun Sie dies trotzdem und die "
+"Frist wird trotzdem nicht eingehalten. Sie haben daher das Recht, sich "
+"darüber zu beschweren"
 
 #: .\templates\frontend\base\body.html:260
-msgid ""
-"The Federal Administrative Court may grant the default complaint, determine "
-"the violation of the obligation to make decisions on the part of the Federal "
-"Office for Foreign Affairs and Asylum and the defaulting authority in "
-"accordance with Section 28 (7) 2. Case VwGVG to issue the missed decision "
-"within 8 weeks."
-msgstr ""
-
-#: .\templates\frontend\base\body.html:265
 msgid "SUBMIT A COMPLAINT NOW."
-msgstr ""
+msgstr "JETZT EINE BESCHWERDE EINREICHEN."
 
-#: .\templates\frontend\base\body.html:299
-msgid "Do you have any questions ? Look here."
-msgstr ""
+#: .\templates\frontend\base\body.html:294
+msgid "Do you have any questions? Look here."
+msgstr "Haben Sie irgendwelche Fragen? Schau hier."
 
-#: .\templates\frontend\base\body.html:300
+#: .\templates\frontend\base\body.html:295
 msgid ""
-"Due to the complaint about late payment, the BFA has a period of 3 months in "
-"which the decision must be made up for. In many cases this will ensure that "
-"you receive your decision within this period. In some cases this is not "
+"Due to the complaint about late payment, the BFA has a period of 3 months in"
+" which the decision must be made up for. In many cases this will ensure that"
+" you receive your decision within this period. In some cases this is not "
 "possible either, for example because you have not yet had an interview or "
 "are still waiting for important documents. In these cases, the BFA will "
 "submit the complaint about late payment to the Federal Administrative Court "
@@ -242,128 +261,135 @@ msgid ""
 "quickly and reliably about every step. We assume the costs of the lawyers "
 "for you."
 msgstr ""
+"Wegen der Beschwerde wegen Zahlungsverzugs hat das BFA eine Frist von 3 "
+"Monaten, in der die Entscheidung nachgeholt werden muss. In vielen Fällen "
+"wird dadurch sichergestellt, dass Sie Ihre Entscheidung innerhalb dieser "
+"Frist erhalten. In manchen Fällen ist auch das nicht möglich, weil Sie zum "
+"Beispiel noch kein Vorstellungsgespräch hatten oder noch auf wichtige "
+"Unterlagen warten. In diesen Fällen legt das BFA die Beschwerde wegen "
+"Zahlungsverzugs dem Bundesverwaltungsgericht zur Entscheidung vor. Das "
+"Bundesverwaltungsgericht kann der Beschwerde über den Zahlungsverzug "
+"stattgeben oder Sie abweisen, Sie können aber auch sofort über Asyl "
+"entscheiden. Durch die computergestützte Informationserfassung und "
+"Weiterleitung an die Rechtsanwälte können die Mahnbeschwerden sehr schnell "
+"erstellt werden. Durch die Hinterlegung Ihrer Handynummer sind Sie schnell "
+"und zuverlässig über jeden Schritt informiert. Die Kosten der Rechtsanwälte "
+"übernehmen wir für Sie."
 
-#: .\templates\frontend\base\body.html:318
+#: .\templates\frontend\base\body.html:313
 msgid "What data do you need from me?"
-msgstr ""
+msgstr "Welche Daten benötigen Sie von mir?"
 
-#: .\templates\frontend\base\body.html:330
+#: .\templates\frontend\base\body.html:325
 msgid "First Name, Last Name, Date of Birth, Mobile Number, White Card."
-msgstr ""
+msgstr "Vorname, Nachname, Geburtsdatum, Handynummer, Weiße Karte."
 
-#: .\templates\frontend\base\body.html:348
+#: .\templates\frontend\base\body.html:343
 msgid "What costs can arise?"
-msgstr ""
+msgstr "Welche Kosten können entstehen?"
 
-#: .\templates\frontend\base\body.html:357
+#: .\templates\frontend\base\body.html:352
 msgid "I would give away"
-msgstr ""
+msgstr "würde ich verschenken"
 
-#: .\templates\frontend\base\body.html:373
+#: .\templates\frontend\base\body.html:368
 msgid "Who pays the Lawyer?"
 msgstr ""
 
-#: .\templates\frontend\base\body.html:383
+#: .\templates\frontend\base\body.html:378
 msgid ""
 "We will cover the costs of the lawyer for you. If the default complaint is "
 "successful, we will try to recover the costs of the default complaint from "
 "the state on your behalf."
 msgstr ""
 
-#: .\templates\frontend\base\body.html:395
+#: .\templates\frontend\base\body.html:390
 msgid "How long will it take?"
 msgstr ""
 
-#: .\templates\frontend\base\body.html:405
+#: .\templates\frontend\base\body.html:400
 msgid ""
 "We cannot guarantee that. The law sets deadlines, but experience has shown "
 "that these are often not met. Even after the complaint about late payment "
 "has been filed, it can be weeks or months before you receive a decision."
 msgstr ""
 
-#: .\templates\frontend\base\body.html:417
+#: .\templates\frontend\base\body.html:412
 msgid ""
 "Do I face disadvantages in the asylum procedure if I file a complaint about "
 "late payment?"
 msgstr ""
 
-#: .\templates\frontend\base\body.html:442
+#: .\templates\frontend\base\body.html:437
 msgid "You have further questions?"
 msgstr ""
 
-#: .\templates\frontend\base\body.html:442
+#: .\templates\frontend\base\body.html:437
 msgid "Send us your request"
 msgstr ""
 
-#: .\templates\frontend\base\body.html:442
+#: .\templates\frontend\base\body.html:437
 msgid "for free advice."
 msgstr ""
 
-#: .\templates\frontend\base\body.html:523
+#: .\templates\frontend\base\body.html:518
 msgid "(Canada Studients Visa)"
 msgstr ""
 
-#: .\templates\frontend\base\body.html:552
+#: .\templates\frontend\base\body.html:547
 msgid "(Singapore PR Visa)"
 msgstr ""
 
-#: .\templates\frontend\base\body.html:580
+#: .\templates\frontend\base\body.html:575
 msgid "(USA Studients Visa)"
-msgstr ""
+msgstr "(USA Studienvisum)"
 
-#: .\templates\frontend\base\body.html:608
+#: .\templates\frontend\base\body.html:603
 msgid "(France Working Visa)"
-msgstr ""
+msgstr "(Arbeitsvisum Frankreich)"
 
-#: .\templates\frontend\base\body.html:637
+#: .\templates\frontend\base\body.html:632
 msgid "(Germany Travel Visa)"
-msgstr ""
+msgstr "(Reisevisum Deutschland)"
 
-#: .\templates\frontend\base\body.html:665
+#: .\templates\frontend\base\body.html:660
 msgid "(Austrlia PR Visa)"
-msgstr ""
+msgstr "(Österreichisches PR-Visum)"
 
 #: .\templates\frontend\base\index.html:138
-msgid "Home"
-msgstr ""
+msgid "Problem"
+msgstr "Problem"
 
-#: .\templates\frontend\base\index.html:150
-msgid "More"
-msgstr ""
+#: .\templates\frontend\base\index.html:143
+msgid "Procedure"
+msgstr "Procedure"
 
-#: .\templates\frontend\base\index.html:160
-msgid "What We Offer:"
-msgstr ""
+#: .\templates\frontend\base\index.html:145
+msgid "Faq"
+msgstr "FAQ"
 
-#: .\templates\frontend\base\index.html:179
-msgid "Featured News:"
-msgstr ""
-
-#: .\templates\frontend\base\index.html:185
-msgid "We make the visa process faster"
-msgstr ""
-
-#: .\templates\frontend\base\index.html:252
-msgid "Languages"
-msgstr ""
-
-#: .\templates\frontend\base\index.html:292
-msgid "More Links"
-msgstr ""
-
-#: .\templates\frontend\base\index.html:296
+#: .\templates\frontend\base\index.html:147
+#: .\templates\frontend\base\index.html:193
 msgid "Contact"
-msgstr ""
+msgstr "Kontakt"
 
-#: .\templates\frontend\base\index.html:297
+#: .\templates\frontend\base\index.html:149
+msgid "Languages"
+msgstr "Sprachen"
+
+#: .\templates\frontend\base\index.html:189
+msgid "More Links"
+msgstr "Weitere Links"
+
+#: .\templates\frontend\base\index.html:194
 msgid "Imprint"
 msgstr ""
 
-#: .\templates\frontend\base\index.html:311
+#: .\templates\frontend\base\index.html:208
 msgid "Copyright"
 msgstr ""
 
-#: .\templates\frontend\base\index.html:311
+#: .\templates\frontend\base\index.html:208
 msgid "All Rights Reserved"
 msgstr ""
 
@@ -426,8 +452,8 @@ msgstr ""
 
 #: .\venv\Lib\site-packages\django\core\validators.py:264
 msgid ""
-"Enter a valid “slug” consisting of Unicode letters, numbers, underscores, or "
-"hyphens."
+"Enter a valid “slug” consisting of Unicode letters, numbers, underscores, or"
+" hyphens."
 msgstr ""
 
 #: .\venv\Lib\site-packages\django\core\validators.py:276
@@ -627,15 +653,15 @@ msgstr ""
 #: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1489
 #, python-format
 msgid ""
-"“%(value)s” value has an invalid format. It must be in YYYY-MM-DD HH:MM[:ss[."
-"uuuuuu]][TZ] format."
+"“%(value)s” value has an invalid format. It must be in YYYY-MM-DD "
+"HH:MM[:ss[.uuuuuu]][TZ] format."
 msgstr ""
 
 #: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1497
 #, python-format
 msgid ""
-"“%(value)s” value has the correct format (YYYY-MM-DD HH:MM[:ss[.uuuuuu]]"
-"[TZ]) but it is an invalid date/time."
+"“%(value)s” value has the correct format (YYYY-MM-DD "
+"HH:MM[:ss[.uuuuuu]][TZ]) but it is an invalid date/time."
 msgstr ""
 
 #: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1502
@@ -654,8 +680,8 @@ msgstr ""
 #: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1791
 #, python-format
 msgid ""
-"“%(value)s” value has an invalid format. It must be in [DD] [[HH:]MM:]ss[."
-"uuuuuu] format."
+"“%(value)s” value has an invalid format. It must be in [DD] "
+"[[HH:]MM:]ss[.uuuuuu] format."
 msgstr ""
 
 #: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1795
@@ -814,7 +840,8 @@ msgid "Many-to-many relationship"
 msgstr ""
 
 #. Translators: If found as last label character, these punctuation
-#. characters will prevent the default label_suffix to be appended to the label
+#. characters will prevent the default label_suffix to be appended to the
+#. label
 #: .\venv\Lib\site-packages\django\forms\boundfield.py:184
 msgid ":?.!"
 msgstr ""
@@ -864,7 +891,8 @@ msgstr ""
 
 #: .\venv\Lib\site-packages\django\forms\fields.py:622
 #, python-format
-msgid "Ensure this filename has at most %(max)d character (it has %(length)d)."
+msgid ""
+"Ensure this filename has at most %(max)d character (it has %(length)d)."
 msgid_plural ""
 "Ensure this filename has at most %(max)d characters (it has %(length)d)."
 msgstr[0] ""
@@ -972,7 +1000,8 @@ msgid "The inline value did not match the parent instance."
 msgstr ""
 
 #: .\venv\Lib\site-packages\django\forms\models.py:1429
-msgid "Select a valid choice. That choice is not one of the available choices."
+msgid ""
+"Select a valid choice. That choice is not one of the available choices."
 msgstr ""
 
 #: .\venv\Lib\site-packages\django\forms\models.py:1568
@@ -1432,11 +1461,11 @@ msgstr ""
 
 #: .\venv\Lib\site-packages\django\views\csrf.py:127
 msgid ""
-"If you are using the <meta name=\"referrer\" content=\"no-referrer\"> tag or "
-"including the “Referrer-Policy: no-referrer” header, please remove them. The "
-"CSRF protection requires the “Referer” header to do strict referer checking. "
-"If you’re concerned about privacy, use alternatives like <a rel=\"noreferrer"
-"\" …> for links to third-party sites."
+"If you are using the <meta name=\"referrer\" content=\"no-referrer\"> tag or"
+" including the “Referrer-Policy: no-referrer” header, please remove them. "
+"The CSRF protection requires the “Referer” header to do strict referer "
+"checking. If you’re concerned about privacy, use alternatives like <a "
+"rel=\"noreferrer\" …> for links to third-party sites."
 msgstr ""
 
 #: .\venv\Lib\site-packages\django\views\csrf.py:136
@@ -1487,8 +1516,8 @@ msgstr ""
 #: .\venv\Lib\site-packages\django\views\generic\dates.py:652
 #, python-format
 msgid ""
-"Future %(verbose_name_plural)s not available because %(class_name)s."
-"allow_future is False."
+"Future %(verbose_name_plural)s not available because "
+"%(class_name)s.allow_future is False."
 msgstr ""
 
 #: .\venv\Lib\site-packages\django\views\generic\dates.py:692
@@ -1544,10 +1573,10 @@ msgstr ""
 #: .\venv\Lib\site-packages\django\views\templates\default_urlconf.html:222
 #, python-format
 msgid ""
-"You are seeing this page because <a href=\"https://docs.djangoproject.com/en/"
-"%(version)s/ref/settings/#debug\" target=\"_blank\" rel=\"noopener"
-"\">DEBUG=True</a> is in your settings file and you have not configured any "
-"URLs."
+"You are seeing this page because <a "
+"href=\"https://docs.djangoproject.com/en/%(version)s/ref/settings/#debug\" "
+"target=\"_blank\" rel=\"noopener\">DEBUG=True</a> is in your settings file "
+"and you have not configured any URLs."
 msgstr ""
 
 #: .\venv\Lib\site-packages\django\views\templates\default_urlconf.html:230

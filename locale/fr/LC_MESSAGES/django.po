@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-05-03 07:43+0800\n"
+"POT-Creation-Date: 2023-05-04 07:37+0800\n"
 "PO-Revision-Date: 2023-04-03 23:57+0000\n"
 "Last-Translator:   <admin@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -142,12 +142,12 @@ msgid "for free advice!"
 msgstr ""
 
 #: .\templates\frontend\base\body.html:112
-#: .\templates\frontend\base\body.html:464
+#: .\templates\frontend\base\body.html:459
 msgid "Our approach"
 msgstr ""
 
 #: .\templates\frontend\base\body.html:115
-#: .\templates\frontend\base\body.html:468
+#: .\templates\frontend\base\body.html:463
 msgid ""
 "For you, we offer a service that you can use to bring a complaint online."
 msgstr ""
@@ -194,11 +194,14 @@ msgstr ""
 
 #: .\templates\frontend\base\body.html:224
 msgid ""
-"Unfortunately, the BFA regularly does not comply with the statutory "
-"obligation to issue the notification within 6 months. With asylcheck24.at we "
-"submit this complaint for you by a lawyer admitted in Austria. Submission is "
-"free of charge for you. The Republic of Austria pays the costs for the "
-"intervention."
+"The law guarantees you that you will receive a decision from the competent "
+"authority within 6 months of your application, which IS the time of the "
+"initial interview. The competent authority is the Federal Office for "
+"Immigration and Asylum (BFA). It may be that the asylum applied for is "
+"granted, it may be that they do not receive asylum but receive subsidiary "
+"protection, or they may receive no protection at all, for example if another "
+"country is responsible for the asylum procedure or if there is no authority "
+"reason for asylum can be established."
 msgstr ""
 
 #: .\templates\frontend\base\body.html:249
@@ -207,30 +210,23 @@ msgstr ""
 
 #: .\templates\frontend\base\body.html:254
 msgid ""
-"The Federal Administrative Court may grant the default complaint, determine "
-"the violation of the obligation to make decisions on the part of the Federal "
-"Office for Foreign Affairs and Asylum and in accordance with Section 28 (7) "
-"1. Case VwGVG to decide for itself."
+"Since the BFA has to process many asylum applications, the legally "
+"stipulated maximum period of 6 months cannot be observed in many cases. What "
+"can you do about it? Of course you have to appear at the appointments, you "
+"have to participate in the procedure and, if possible, provide documents and "
+"information. In most cases you do this anyway and the deadline is still not "
+"met. You therefore have the right to complain about it"
 msgstr ""
 
 #: .\templates\frontend\base\body.html:260
-msgid ""
-"The Federal Administrative Court may grant the default complaint, determine "
-"the violation of the obligation to make decisions on the part of the Federal "
-"Office for Foreign Affairs and Asylum and the defaulting authority in "
-"accordance with Section 28 (7) 2. Case VwGVG to issue the missed decision "
-"within 8 weeks."
-msgstr ""
-
-#: .\templates\frontend\base\body.html:265
 msgid "SUBMIT A COMPLAINT NOW."
 msgstr ""
 
-#: .\templates\frontend\base\body.html:299
-msgid "Do you have any questions ? Look here."
+#: .\templates\frontend\base\body.html:294
+msgid "Do you have any questions? Look here."
 msgstr ""
 
-#: .\templates\frontend\base\body.html:300
+#: .\templates\frontend\base\body.html:295
 msgid ""
 "Due to the complaint about late payment, the BFA has a period of 3 months in "
 "which the decision must be made up for. In many cases this will ensure that "
@@ -247,127 +243,120 @@ msgid ""
 "for you."
 msgstr ""
 
-#: .\templates\frontend\base\body.html:318
+#: .\templates\frontend\base\body.html:313
 msgid "What data do you need from me?"
 msgstr ""
 
-#: .\templates\frontend\base\body.html:330
+#: .\templates\frontend\base\body.html:325
 msgid "First Name, Last Name, Date of Birth, Mobile Number, White Card."
 msgstr ""
 
-#: .\templates\frontend\base\body.html:348
+#: .\templates\frontend\base\body.html:343
 msgid "What costs can arise?"
 msgstr ""
 
-#: .\templates\frontend\base\body.html:357
+#: .\templates\frontend\base\body.html:352
 msgid "I would give away"
 msgstr ""
 
-#: .\templates\frontend\base\body.html:373
+#: .\templates\frontend\base\body.html:368
 msgid "Who pays the Lawyer?"
 msgstr ""
 
-#: .\templates\frontend\base\body.html:383
+#: .\templates\frontend\base\body.html:378
 msgid ""
 "We will cover the costs of the lawyer for you. If the default complaint is "
 "successful, we will try to recover the costs of the default complaint from "
 "the state on your behalf."
 msgstr ""
 
-#: .\templates\frontend\base\body.html:395
+#: .\templates\frontend\base\body.html:390
 msgid "How long will it take?"
 msgstr ""
 
-#: .\templates\frontend\base\body.html:405
+#: .\templates\frontend\base\body.html:400
 msgid ""
 "We cannot guarantee that. The law sets deadlines, but experience has shown "
 "that these are often not met. Even after the complaint about late payment "
 "has been filed, it can be weeks or months before you receive a decision."
 msgstr ""
 
-#: .\templates\frontend\base\body.html:417
+#: .\templates\frontend\base\body.html:412
 msgid ""
 "Do I face disadvantages in the asylum procedure if I file a complaint about "
 "late payment?"
 msgstr ""
 
-#: .\templates\frontend\base\body.html:442
+#: .\templates\frontend\base\body.html:437
 msgid "You have further questions?"
 msgstr ""
 
-#: .\templates\frontend\base\body.html:442
+#: .\templates\frontend\base\body.html:437
 msgid "Send us your request"
 msgstr ""
 
-#: .\templates\frontend\base\body.html:442
+#: .\templates\frontend\base\body.html:437
 msgid "for free advice."
 msgstr ""
 
-#: .\templates\frontend\base\body.html:523
+#: .\templates\frontend\base\body.html:518
 msgid "(Canada Studients Visa)"
 msgstr ""
 
-#: .\templates\frontend\base\body.html:552
+#: .\templates\frontend\base\body.html:547
 msgid "(Singapore PR Visa)"
 msgstr ""
 
-#: .\templates\frontend\base\body.html:580
+#: .\templates\frontend\base\body.html:575
 msgid "(USA Studients Visa)"
 msgstr ""
 
-#: .\templates\frontend\base\body.html:608
+#: .\templates\frontend\base\body.html:603
 msgid "(France Working Visa)"
 msgstr ""
 
-#: .\templates\frontend\base\body.html:637
+#: .\templates\frontend\base\body.html:632
 msgid "(Germany Travel Visa)"
 msgstr ""
 
-#: .\templates\frontend\base\body.html:665
+#: .\templates\frontend\base\body.html:660
 msgid "(Austrlia PR Visa)"
 msgstr ""
 
 #: .\templates\frontend\base\index.html:138
-msgid "Home"
+msgid "Problem"
 msgstr ""
 
-#: .\templates\frontend\base\index.html:150
-msgid "More"
+#: .\templates\frontend\base\index.html:143
+msgid "Procedure"
 msgstr ""
 
-#: .\templates\frontend\base\index.html:160
-msgid "What We Offer:"
+#: .\templates\frontend\base\index.html:145
+msgid "Faq"
 msgstr ""
 
-#: .\templates\frontend\base\index.html:179
-msgid "Featured News:"
-msgstr ""
-
-#: .\templates\frontend\base\index.html:185
-msgid "We make the visa process faster"
-msgstr ""
-
-#: .\templates\frontend\base\index.html:252
-msgid "Languages"
-msgstr ""
-
-#: .\templates\frontend\base\index.html:292
-msgid "More Links"
-msgstr ""
-
-#: .\templates\frontend\base\index.html:296
+#: .\templates\frontend\base\index.html:147
+#: .\templates\frontend\base\index.html:193
 msgid "Contact"
 msgstr ""
 
-#: .\templates\frontend\base\index.html:297
+#: .\templates\frontend\base\index.html:149
+msgid "Languages"
+msgstr ""
+
+#: .\templates\frontend\base\index.html:189
+msgid "More Links"
+msgstr ""
+
+#: .\templates\frontend\base\index.html:194
 msgid "Imprint"
 msgstr ""
 
-#: .\templates\frontend\base\index.html:311
+#: .\templates\frontend\base\index.html:208
 msgid "Copyright"
 msgstr ""
 
-#: .\templates\frontend\base\index.html:311
+#: .\templates\frontend\base\index.html:208
 msgid "All Rights Reserved"
 msgstr ""
 

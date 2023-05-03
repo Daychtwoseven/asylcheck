@@ -54,6 +54,10 @@ def step1_page(request):
                     complaint.save()
                     context['data'] = complaint
                     return render(request, 'backend/step3.html', context)
+                else:
+                    context[
+                        'message'] = "We're sorry. Unfortunately we cannot process your case"
+                    return render(request, 'backend/step5.html', context)
             else:
                 context[
                     'message'] = "We're sorry. Unfortunately we cannot process your case"
