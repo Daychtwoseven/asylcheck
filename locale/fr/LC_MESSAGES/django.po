@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-05-01 18:47+0800\n"
+"POT-Creation-Date: 2023-05-03 07:43+0800\n"
 "PO-Revision-Date: 2023-04-03 23:57+0000\n"
 "Last-Translator:   <admin@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -85,6 +85,20 @@ msgstr ""
 msgid "NEXT STEP"
 msgstr ""
 
+#: .\templates\backend\step5.html:8
+msgid "We're sorry. Unfortunately we cannot process your case"
+msgstr ""
+
+#: .\templates\backend\step5.html:10
+msgid "You have successfully confirmed complainant"
+msgstr ""
+
+#: .\templates\backend\step5.html:12
+msgid ""
+"Thank you for your document, Your document is on hold and will be processed "
+"shortly."
+msgstr ""
+
 #: .\templates\frontend\base\body.html:18
 msgid "Your complaint within 24 hours"
 msgstr "Votre réclamation sous 24h"
@@ -107,76 +121,78 @@ msgstr ""
 msgid "Enter Your Name*"
 msgstr ""
 
-#: .\templates\frontend\base\body.html:54
+#: .\templates\frontend\base\body.html:55
 msgid "Enter Your Telephone Number*"
 msgstr ""
 
-#: .\templates\frontend\base\body.html:59
+#: .\templates\frontend\base\body.html:60
 msgid "Send Request"
 msgstr ""
 
-#: .\templates\frontend\base\body.html:88
+#: .\templates\frontend\base\body.html:89
 msgid "You have further questions"
 msgstr ""
 
-#: .\templates\frontend\base\body.html:88
+#: .\templates\frontend\base\body.html:89
 msgid "Send your request"
 msgstr ""
 
-#: .\templates\frontend\base\body.html:88
+#: .\templates\frontend\base\body.html:89
 msgid "for free advice!"
 msgstr ""
 
-#: .\templates\frontend\base\body.html:111
+#: .\templates\frontend\base\body.html:112
+#: .\templates\frontend\base\body.html:464
 msgid "Our approach"
 msgstr ""
 
-#: .\templates\frontend\base\body.html:114
+#: .\templates\frontend\base\body.html:115
+#: .\templates\frontend\base\body.html:468
 msgid ""
 "For you, we offer a service that you can use to bring a complaint online."
 msgstr ""
 
-#: .\templates\frontend\base\body.html:133
+#: .\templates\frontend\base\body.html:134
 msgid "Enter Details"
 msgstr ""
 
-#: .\templates\frontend\base\body.html:134
+#: .\templates\frontend\base\body.html:135
 msgid ""
 "To file your default complaint, we only need your first and last name, your "
 "mobile phone number and a photo of your asylum ID. We check free of charge "
 "whether our lawyers can file a default complaint."
 msgstr ""
 
-#: .\templates\frontend\base\body.html:152
+#: .\templates\frontend\base\body.html:153
 msgid "Commission Legal Experts Free of Charge"
 msgstr ""
 
-#: .\templates\frontend\base\body.html:153
+#: .\templates\frontend\base\body.html:154
 msgid ""
 "If you instruct us, we will file your default complaint in an average of "
 "less than 24 hours. You will always be informed about the course. You will "
 "not incur any costs."
 msgstr ""
 
-#: .\templates\frontend\base\body.html:171
+#: .\templates\frontend\base\body.html:172
 msgid "You will Receive a Notification within 3 Months"
 msgstr ""
 
-#: .\templates\frontend\base\body.html:172
+#: .\templates\frontend\base\body.html:173
 msgid ""
 "From the complaint, the BFA is obliged to issue a decision within 3 months. "
 "This is how you get your right. "
 msgstr ""
 
-#: .\templates\frontend\base\body.html:216
+#: .\templates\frontend\base\body.html:218
 msgid "WE SUPPORT YOU"
 msgstr ""
 
-#: .\templates\frontend\base\body.html:219
+#: .\templates\frontend\base\body.html:221
 msgid "Our lawyers for your right"
 msgstr ""
 
-#: .\templates\frontend\base\body.html:222
+#: .\templates\frontend\base\body.html:224
 msgid ""
 "Unfortunately, the BFA regularly does not comply with the statutory "
 "obligation to issue the notification within 6 months. With asylcheck24.at we "
@@ -185,11 +201,11 @@ msgid ""
 "intervention."
 msgstr ""
 
-#: .\templates\frontend\base\body.html:247
+#: .\templates\frontend\base\body.html:249
 msgid "YOUR CERTIFICATE WITHIN 8 WEEKS"
 msgstr ""
 
-#: .\templates\frontend\base\body.html:252
+#: .\templates\frontend\base\body.html:254
 msgid ""
 "The Federal Administrative Court may grant the default complaint, determine "
 "the violation of the obligation to make decisions on the part of the Federal "
@@ -197,7 +213,7 @@ msgid ""
 "1. Case VwGVG to decide for itself."
 msgstr ""
 
-#: .\templates\frontend\base\body.html:258
+#: .\templates\frontend\base\body.html:260
 msgid ""
 "The Federal Administrative Court may grant the default complaint, determine "
 "the violation of the obligation to make decisions on the part of the Federal "
@@ -206,95 +222,108 @@ msgid ""
 "within 8 weeks."
 msgstr ""
 
-#: .\templates\frontend\base\body.html:263
+#: .\templates\frontend\base\body.html:265
 msgid "SUBMIT A COMPLAINT NOW."
 msgstr ""
 
-#: .\templates\frontend\base\body.html:297
+#: .\templates\frontend\base\body.html:299
 msgid "Do you have any questions ? Look here."
 msgstr ""
 
-#: .\templates\frontend\base\body.html:315
+#: .\templates\frontend\base\body.html:300
+msgid ""
+"Due to the complaint about late payment, the BFA has a period of 3 months in "
+"which the decision must be made up for. In many cases this will ensure that "
+"you receive your decision within this period. In some cases this is not "
+"possible either, for example because you have not yet had an interview or "
+"are still waiting for important documents. In these cases, the BFA will "
+"submit the complaint about late payment to the Federal Administrative Court "
+"so that the latter can decide. The Federal Administrative Court can grant "
+"the complaint about late payment or reject you, but you can also decide on "
+"asylum immediately. Due to the computer-based information collection and "
+"forwarding to the lawyers, the complaints about default can be created very "
+"quickly. Storing your cell phone number ensures that you are informed "
+"quickly and reliably about every step. We assume the costs of the lawyers "
+"for you."
+msgstr ""
+
+#: .\templates\frontend\base\body.html:318
 msgid "What data do you need from me?"
 msgstr ""
 
-#: .\templates\frontend\base\body.html:327
+#: .\templates\frontend\base\body.html:330
 msgid "First Name, Last Name, Date of Birth, Mobile Number, White Card."
 msgstr ""
 
-#: .\templates\frontend\base\body.html:345
+#: .\templates\frontend\base\body.html:348
 msgid "What costs can arise?"
 msgstr ""
 
-#: .\templates\frontend\base\body.html:354
+#: .\templates\frontend\base\body.html:357
 msgid "I would give away"
 msgstr ""
 
-#: .\templates\frontend\base\body.html:370
+#: .\templates\frontend\base\body.html:373
 msgid "Who pays the Lawyer?"
 msgstr ""
 
-#: .\templates\frontend\base\body.html:380
+#: .\templates\frontend\base\body.html:383
 msgid ""
 "We will cover the costs of the lawyer for you. If the default complaint is "
 "successful, we will try to recover the costs of the default complaint from "
 "the state on your behalf."
 msgstr ""
 
-#: .\templates\frontend\base\body.html:392
+#: .\templates\frontend\base\body.html:395
 msgid "How long will it take?"
 msgstr ""
 
-#: .\templates\frontend\base\body.html:402
+#: .\templates\frontend\base\body.html:405
 msgid ""
 "We cannot guarantee that. The law sets deadlines, but experience has shown "
 "that these are often not met. Even after the complaint about late payment "
 "has been filed, it can be weeks or months before you receive a decision."
 msgstr ""
 
-#: .\templates\frontend\base\body.html:414
+#: .\templates\frontend\base\body.html:417
 msgid ""
 "Do I face disadvantages in the asylum procedure if I file a complaint about "
 "late payment?"
 msgstr ""
 
-#: .\templates\frontend\base\body.html:439
+#: .\templates\frontend\base\body.html:442
 msgid "You have further questions?"
 msgstr ""
 
-#: .\templates\frontend\base\body.html:439
+#: .\templates\frontend\base\body.html:442
 msgid "Send us your request"
 msgstr ""
 
-#: .\templates\frontend\base\body.html:439
+#: .\templates\frontend\base\body.html:442
 msgid "for free advice."
 msgstr ""
 
-#: .\templates\frontend\base\body.html:461
-msgid "Our Users say that"
-msgstr ""
-
-#: .\templates\frontend\base\body.html:520
+#: .\templates\frontend\base\body.html:523
 msgid "(Canada Studients Visa)"
 msgstr ""
 
-#: .\templates\frontend\base\body.html:549
+#: .\templates\frontend\base\body.html:552
 msgid "(Singapore PR Visa)"
 msgstr ""
 
-#: .\templates\frontend\base\body.html:577
+#: .\templates\frontend\base\body.html:580
 msgid "(USA Studients Visa)"
 msgstr ""
 
-#: .\templates\frontend\base\body.html:605
+#: .\templates\frontend\base\body.html:608
 msgid "(France Working Visa)"
 msgstr ""
 
-#: .\templates\frontend\base\body.html:634
+#: .\templates\frontend\base\body.html:637
 msgid "(Germany Travel Visa)"
 msgstr ""
 
-#: .\templates\frontend\base\body.html:662
+#: .\templates\frontend\base\body.html:665
 msgid "(Austrlia PR Visa)"
 msgstr ""
 
@@ -322,27 +351,23 @@ msgstr ""
 msgid "Languages"
 msgstr ""
 
-#: .\templates\frontend\base\index.html:265
-msgid "SUBMIT COMPLAINT"
-msgstr ""
-
-#: .\templates\frontend\base\index.html:299
+#: .\templates\frontend\base\index.html:292
 msgid "More Links"
 msgstr ""
 
-#: .\templates\frontend\base\index.html:304
-msgid "Privacy Policy"
+#: .\templates\frontend\base\index.html:296
+msgid "Contact"
 msgstr ""
 
-#: .\templates\frontend\base\index.html:305
+#: .\templates\frontend\base\index.html:297
 msgid "Imprint"
 msgstr ""
 
-#: .\templates\frontend\base\index.html:319
+#: .\templates\frontend\base\index.html:311
 msgid "Copyright"
 msgstr ""
 
-#: .\templates\frontend\base\index.html:319
+#: .\templates\frontend\base\index.html:311
 msgid "All Rights Reserved"
 msgstr ""
 

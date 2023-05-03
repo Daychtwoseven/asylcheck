@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-05-01 18:47+0800\n"
-"PO-Revision-Date: 2023-05-01 18:49+0000\n"
+"POT-Creation-Date: 2023-05-03 07:43+0800\n"
+"PO-Revision-Date: 2023-05-03 07:44+0000\n"
 "Last-Translator:   <admin@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
@@ -88,6 +88,22 @@ msgstr "Durchsuchen Sie Passport Back"
 msgid "NEXT STEP"
 msgstr "NÄCHSTER SCHRITT"
 
+#: .\templates\backend\step5.html:8
+msgid "We're sorry. Unfortunately we cannot process your case"
+msgstr "Es tut uns leid. Leider können wir Ihren Fall nicht bearbeiten"
+
+#: .\templates\backend\step5.html:10
+msgid "You have successfully confirmed complainant"
+msgstr "Sie haben den Beschwerdeführer erfolgreich bestätigt"
+
+#: .\templates\backend\step5.html:12
+msgid ""
+"Thank you for your document, Your document is on hold and will be processed "
+"shortly."
+msgstr ""
+"Vielen Dank für Ihr Dokument. Ihr Dokument ist zurückgestellt und wird in "
+"Kürze bearbeitet."
+
 #: .\templates\frontend\base\body.html:18
 msgid "Your complaint within 24 hours"
 msgstr "Ihre Beschwerde innerhalb von 24 Stunden"
@@ -111,42 +127,44 @@ msgstr ""
 msgid "Enter Your Name*"
 msgstr "Gib deinen Namen ein*"
 
-#: .\templates\frontend\base\body.html:54
+#: .\templates\frontend\base\body.html:55
 msgid "Enter Your Telephone Number*"
 msgstr "Geben Sie Ihre Telefonnummer ein*Geben Sie Ihre Telefonnummer ein*"
 
-#: .\templates\frontend\base\body.html:59
+#: .\templates\frontend\base\body.html:60
 msgid "Send Request"
 msgstr "Anfrage senden"
 
-#: .\templates\frontend\base\body.html:88
+#: .\templates\frontend\base\body.html:89
 msgid "You have further questions"
 msgstr "Sie haben weitere Fragen"
 
-#: .\templates\frontend\base\body.html:88
+#: .\templates\frontend\base\body.html:89
 msgid "Send your request"
 msgstr "Senden Sie Ihre Anfrage"
 
-#: .\templates\frontend\base\body.html:88
+#: .\templates\frontend\base\body.html:89
 msgid "for free advice!"
 msgstr "für kostenlose Beratung!"
 
-#: .\templates\frontend\base\body.html:111
+#: .\templates\frontend\base\body.html:112
+#: .\templates\frontend\base\body.html:464
 msgid "Our approach"
 msgstr "Unser Vorgehen"
 
-#: .\templates\frontend\base\body.html:114
+#: .\templates\frontend\base\body.html:115
+#: .\templates\frontend\base\body.html:468
 msgid ""
 "For you, we offer a service that you can use to bring a complaint online."
 msgstr ""
 "Für Sie bieten wir einen Service an, mit dem Sie eine Beschwerde online "
 "einreichen können."
 
-#: .\templates\frontend\base\body.html:133
+#: .\templates\frontend\base\body.html:134
 msgid "Enter Details"
 msgstr "Details eingeben"
 
-#: .\templates\frontend\base\body.html:134
+#: .\templates\frontend\base\body.html:135
 msgid ""
 "To file your default complaint, we only need your first and last name, your "
 "mobile phone number and a photo of your asylum ID. We check free of charge "
@@ -156,11 +174,11 @@ msgstr ""
 "Nachnamen, Ihre Handynummer und ein Foto Ihres Asylausweises. Wir prüfen "
 "kostenlos, ob unsere Anwälte eine Mahnung einreichen können."
 
-#: .\templates\frontend\base\body.html:152
+#: .\templates\frontend\base\body.html:153
 msgid "Commission Legal Experts Free of Charge"
 msgstr "Kostenlose Beauftragung von Rechtsexperten"
 
-#: .\templates\frontend\base\body.html:153
+#: .\templates\frontend\base\body.html:154
 msgid ""
 "If you instruct us, we will file your default complaint in an average of "
 "less than 24 hours. You will always be informed about the course. You will "
@@ -170,11 +188,11 @@ msgstr ""
 "durchschnittlich weniger als 24 Stunden ein. Sie werden immer über den Kurs "
 "informiert. Es entstehen Ihnen keine Kosten."
 
-#: .\templates\frontend\base\body.html:171
+#: .\templates\frontend\base\body.html:172
 msgid "You will Receive a Notification within 3 Months"
 msgstr "Sie erhalten innerhalb von 3 Monaten eine Benachrichtigung"
 
-#: .\templates\frontend\base\body.html:172
+#: .\templates\frontend\base\body.html:173
 msgid ""
 "From the complaint, the BFA is obliged to issue a decision within 3 months. "
 "This is how you get your right. "
@@ -182,15 +200,15 @@ msgstr ""
 "Ab der Beschwerde ist das BFA verpflichtet, innerhalb von 3 Monaten eine "
 "Entscheidung zu erlassen. So kommen Sie zu Ihrem Recht."
 
-#: .\templates\frontend\base\body.html:216
+#: .\templates\frontend\base\body.html:218
 msgid "WE SUPPORT YOU"
 msgstr "WIR UNTERSTÜTZEN DICH"
 
-#: .\templates\frontend\base\body.html:219
+#: .\templates\frontend\base\body.html:221
 msgid "Our lawyers for your right"
 msgstr "Unsere Anwälte für Ihr Recht"
 
-#: .\templates\frontend\base\body.html:222
+#: .\templates\frontend\base\body.html:224
 msgid ""
 "Unfortunately, the BFA regularly does not comply with the statutory "
 "obligation to issue the notification within 6 months. With asylcheck24.at we"
@@ -204,11 +222,11 @@ msgstr ""
 "Rechtsanwalt ein. Die Einreichung ist für Sie kostenlos. Die Kosten der "
 "Intervention trägt die Republik Österreich."
 
-#: .\templates\frontend\base\body.html:247
+#: .\templates\frontend\base\body.html:249
 msgid "YOUR CERTIFICATE WITHIN 8 WEEKS"
 msgstr "IHR ZERTIFIKAT INNERHALB VON 8 WOCHEN"
 
-#: .\templates\frontend\base\body.html:252
+#: .\templates\frontend\base\body.html:254
 msgid ""
 "The Federal Administrative Court may grant the default complaint, determine "
 "the violation of the obligation to make decisions on the part of the Federal"
@@ -219,7 +237,7 @@ msgstr ""
 "Verletzung der Entscheidungspflicht durch das Bundesamt für Äußeres und Asyl"
 " feststellen und gemäß § 28 Abs. 7 Satz 1 VwGVG für sich entscheiden."
 
-#: .\templates\frontend\base\body.html:258
+#: .\templates\frontend\base\body.html:260
 msgid ""
 "The Federal Administrative Court may grant the default complaint, determine "
 "the violation of the obligation to make decisions on the part of the Federal"
@@ -232,35 +250,66 @@ msgstr ""
 "Asyl feststellen und die säumige Behörde gemäß § 28 Abs. 7 Satz 2 VwGVG "
 "erlassen verpasste Entscheidung innerhalb von 8 Wochen."
 
-#: .\templates\frontend\base\body.html:263
+#: .\templates\frontend\base\body.html:265
 msgid "SUBMIT A COMPLAINT NOW."
 msgstr "JETZT EINE BESCHWERDE EINREICHEN."
 
-#: .\templates\frontend\base\body.html:297
+#: .\templates\frontend\base\body.html:299
 msgid "Do you have any questions ? Look here."
 msgstr "Haben Sie irgendwelche Fragen ? Schau hier."
 
-#: .\templates\frontend\base\body.html:315
+#: .\templates\frontend\base\body.html:300
+msgid ""
+"Due to the complaint about late payment, the BFA has a period of 3 months in"
+" which the decision must be made up for. In many cases this will ensure that"
+" you receive your decision within this period. In some cases this is not "
+"possible either, for example because you have not yet had an interview or "
+"are still waiting for important documents. In these cases, the BFA will "
+"submit the complaint about late payment to the Federal Administrative Court "
+"so that the latter can decide. The Federal Administrative Court can grant "
+"the complaint about late payment or reject you, but you can also decide on "
+"asylum immediately. Due to the computer-based information collection and "
+"forwarding to the lawyers, the complaints about default can be created very "
+"quickly. Storing your cell phone number ensures that you are informed "
+"quickly and reliably about every step. We assume the costs of the lawyers "
+"for you."
+msgstr ""
+"Wegen der Beschwerde wegen Zahlungsverzugs hat das BFA eine Frist von 3 "
+"Monaten, in der die Entscheidung nachgeholt werden muss. In vielen Fällen "
+"wird dadurch sichergestellt, dass Sie Ihre Entscheidung innerhalb dieser "
+"Frist erhalten. In manchen Fällen ist auch das nicht möglich, weil Sie zum "
+"Beispiel noch kein Vorstellungsgespräch hatten oder noch auf wichtige "
+"Unterlagen warten. In diesen Fällen legt das BFA die Beschwerde wegen "
+"Zahlungsverzugs dem Bundesverwaltungsgericht zur Entscheidung vor. Das "
+"Bundesverwaltungsgericht kann der Beschwerde über den Zahlungsverzug "
+"stattgeben oder Sie abweisen, Sie können aber auch sofort über Asyl "
+"entscheiden. Durch die computergestützte Informationserfassung und "
+"Weiterleitung an die Rechtsanwälte können die Mahnbeschwerden sehr schnell "
+"erstellt werden. Durch die Hinterlegung Ihrer Handynummer sind Sie schnell "
+"und zuverlässig über jeden Schritt informiert. Die Kosten der Rechtsanwälte "
+"übernehmen wir für Sie."
+
+#: .\templates\frontend\base\body.html:318
 msgid "What data do you need from me?"
 msgstr "Welche Daten benötigen Sie von mir?"
 
-#: .\templates\frontend\base\body.html:327
+#: .\templates\frontend\base\body.html:330
 msgid "First Name, Last Name, Date of Birth, Mobile Number, White Card."
 msgstr "Vorname, Nachname, Geburtsdatum, Handynummer, Weiße Karte."
 
-#: .\templates\frontend\base\body.html:345
+#: .\templates\frontend\base\body.html:348
 msgid "What costs can arise?"
 msgstr "Welche Kosten können entstehen?"
 
-#: .\templates\frontend\base\body.html:354
+#: .\templates\frontend\base\body.html:357
 msgid "I would give away"
 msgstr "würde ich verschenken"
 
-#: .\templates\frontend\base\body.html:370
+#: .\templates\frontend\base\body.html:373
 msgid "Who pays the Lawyer?"
 msgstr "Wer bezahlt den Anwalt?"
 
-#: .\templates\frontend\base\body.html:380
+#: .\templates\frontend\base\body.html:383
 msgid ""
 "We will cover the costs of the lawyer for you. If the default complaint is "
 "successful, we will try to recover the costs of the default complaint from "
@@ -270,11 +319,11 @@ msgstr ""
 "werden wir versuchen, die Kosten der Mahnung vom Staat in Ihrem Namen zu "
 "erstatten."
 
-#: .\templates\frontend\base\body.html:392
+#: .\templates\frontend\base\body.html:395
 msgid "How long will it take?"
 msgstr "Wie lange wird es dauern?"
 
-#: .\templates\frontend\base\body.html:402
+#: .\templates\frontend\base\body.html:405
 msgid ""
 "We cannot guarantee that. The law sets deadlines, but experience has shown "
 "that these are often not met. Even after the complaint about late payment "
@@ -285,7 +334,7 @@ msgstr ""
 "Einreichung der Beschwerde über Zahlungsverzug kann es Wochen oder Monate "
 "dauern, bis Sie eine Entscheidung erhalten."
 
-#: .\templates\frontend\base\body.html:414
+#: .\templates\frontend\base\body.html:417
 msgid ""
 "Do I face disadvantages in the asylum procedure if I file a complaint about "
 "late payment?"
@@ -293,43 +342,39 @@ msgstr ""
 "Entstehen mir Nachteile im Asylverfahren, wenn ich eine Anzeige wegen "
 "verspäteter Zahlung erstatte?"
 
-#: .\templates\frontend\base\body.html:439
+#: .\templates\frontend\base\body.html:442
 msgid "You have further questions?"
 msgstr "Sie haben weitere Fragen?"
 
-#: .\templates\frontend\base\body.html:439
+#: .\templates\frontend\base\body.html:442
 msgid "Send us your request"
 msgstr "Senden Sie uns Ihre Anfrage"
 
-#: .\templates\frontend\base\body.html:439
+#: .\templates\frontend\base\body.html:442
 msgid "for free advice."
 msgstr "für kostenlose Beratung"
 
-#: .\templates\frontend\base\body.html:461
-msgid "Our Users say that"
-msgstr "Das sagen unsere Benutzer"
-
-#: .\templates\frontend\base\body.html:520
+#: .\templates\frontend\base\body.html:523
 msgid "(Canada Studients Visa)"
 msgstr "(Kanadisches Studienvisum)"
 
-#: .\templates\frontend\base\body.html:549
+#: .\templates\frontend\base\body.html:552
 msgid "(Singapore PR Visa)"
 msgstr "(Singapur PR-Visum)"
 
-#: .\templates\frontend\base\body.html:577
+#: .\templates\frontend\base\body.html:580
 msgid "(USA Studients Visa)"
 msgstr "(USA Studienvisum)"
 
-#: .\templates\frontend\base\body.html:605
+#: .\templates\frontend\base\body.html:608
 msgid "(France Working Visa)"
 msgstr "(Arbeitsvisum Frankreich)"
 
-#: .\templates\frontend\base\body.html:634
+#: .\templates\frontend\base\body.html:637
 msgid "(Germany Travel Visa)"
 msgstr "(Reisevisum Deutschland)"
 
-#: .\templates\frontend\base\body.html:662
+#: .\templates\frontend\base\body.html:665
 msgid "(Austrlia PR Visa)"
 msgstr "(Österreichisches PR-Visum)"
 
@@ -357,27 +402,23 @@ msgstr "Wir beschleunigen den Visumsprozess"
 msgid "Languages"
 msgstr "Sprachen"
 
-#: .\templates\frontend\base\index.html:265
-msgid "SUBMIT COMPLAINT"
-msgstr "BESCHWERDE EINREICHEN"
-
-#: .\templates\frontend\base\index.html:299
+#: .\templates\frontend\base\index.html:292
 msgid "More Links"
 msgstr "Weitere Links"
 
-#: .\templates\frontend\base\index.html:304
-msgid "Privacy Policy"
-msgstr "Datenschutz-Bestimmungen"
+#: .\templates\frontend\base\index.html:296
+msgid "Contact"
+msgstr "Kontakt"
 
-#: .\templates\frontend\base\index.html:305
+#: .\templates\frontend\base\index.html:297
 msgid "Imprint"
 msgstr "Impressum"
 
-#: .\templates\frontend\base\index.html:319
+#: .\templates\frontend\base\index.html:311
 msgid "Copyright"
 msgstr "Urheberrechte ©"
 
-#: .\templates\frontend\base\index.html:319
+#: .\templates\frontend\base\index.html:311
 msgid "All Rights Reserved"
 msgstr "Alle Rechte vorbehalten"
 
@@ -1590,6 +1631,15 @@ msgstr ""
 #: .\venv\Lib\site-packages\django\views\templates\default_urlconf.html:249
 msgid "Connect, get help, or contribute"
 msgstr ""
+
+#~ msgid "SUBMIT COMPLAINT"
+#~ msgstr "BESCHWERDE EINREICHEN"
+
+#~ msgid "Our Users say that"
+#~ msgstr "Das sagen unsere Benutzer"
+
+#~ msgid "Privacy Policy"
+#~ msgstr "Datenschutz-Bestimmungen"
 
 #~ msgid "WE REQUEST"
 #~ msgstr "WIR VERLANGEN"

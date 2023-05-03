@@ -3,7 +3,15 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12 section-title center">
-                <h2 class="h2-xs mb-5"><strong>{{message}}</strong></h2>
+                <h2 class="h2-xs mb-5"><strong>
+                    {% if message == "We're sorry. Unfortunately we cannot process your case" %}
+                    {% trans "We're sorry. Unfortunately we cannot process your case" %}
+                    {% elif message == "You have successfully confirmed complainant" %}
+                    {% trans "You have successfully confirmed complainant" %}
+                    {% elif message == "Thank you for your document, Your document is on hold and will be processed shortly." %}
+                    {% trans "Thank you for your document, Your document is on hold and will be processed shortly." %}
+                    {% endif %}
+                </strong></h2>
             </div>
         </div>
     </div>

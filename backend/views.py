@@ -4,6 +4,7 @@ from django.http import JsonResponse, HttpResponse
 from django.shortcuts import render
 from django.utils.translation import gettext as _
 from django.utils.translation import get_language, activate, gettext
+from rosetta.translate_utils import translate
 from .utils import *
 import random
 import requests
@@ -41,16 +42,22 @@ def step1_page(request):
                 'data': None
             }
             received = True if request.POST.get('value') == "True" else False
-            complaint = Complaints.objects.filter(id=request.POST.get('pk')).first()
-            code = random.randint(100000, 999999)
-            send_sms = sms(complaint.phone, f"Your verification code is {code} asylcheck24")
-            if send_sms and complaint:
-                complaint.received = received
-                complaint.verification_code = code
-                complaint.step = '3'
-                complaint.save()
-                context['data'] = complaint
-                return render(request, 'backend/step3.html', context)
+            print(received)
+            if received:
+                complaint = Complaints.objects.filter(id=request.POST.get('pk')).first()
+                code = random.randint(100000, 999999)
+                send_sms = sms(complaint.phone, f"Your verification code is {code} asylcheck24")
+                if send_sms and complaint:
+                    complaint.received = received
+                    complaint.verification_code = code
+                    complaint.step = '3'
+                    complaint.save()
+                    context['data'] = complaint
+                    return render(request, 'backend/step3.html', context)
+            else:
+                context[
+                    'message'] = "We're sorry. Unfortunately we cannot process your case"
+                return render(request, 'backend/step5.html', context)
     except Exception as e:
         print(e)
 
@@ -206,7 +213,7 @@ def confirm_page(request, pk):
                 f"Your default complaint was examined by Mag. Jodlbauer and submitted to the BFA. You should now receive your notification within 3 months.")
             complaint.confirm = True
             complaint.save()
-            context['message'] = f'You have successfully confirmed complainant {complaint.name}'
+            context['message'] = f'You have successfully confirmed complainant'
             return render(request, 'backend/step5.html', context)
         else:
             context['data'] = complaint
