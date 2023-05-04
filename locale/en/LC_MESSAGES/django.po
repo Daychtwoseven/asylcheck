@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-05-04 07:37+0800\n"
-"PO-Revision-Date: 2023-05-04 07:42+0000\n"
+"PO-Revision-Date: 2023-05-04 20:03+0000\n"
 "Last-Translator:   <admin@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
@@ -32,35 +32,34 @@ msgid ""
 "Are you currently an asylum seeker and have not yet received an asylum "
 "notice?"
 msgstr ""
-"Sie sind aktuell Asylbewerber und haben noch keinen Asylbescheid erhalten?"
 
 #: .\templates\backend\step1.html:8
 msgid "I RECEIVED AN ASYLUM NOTICE."
-msgstr "Ich habe einen Asylbescheid erhalten."
+msgstr ""
 
 #: .\templates\backend\step1.html:10
 msgid "I HAVE NOT RECEIVED AN ASYLUM NOTICE."
-msgstr "ICH HABE KEINEN ASYLBEscheid ERHALTEN."
+msgstr ""
 
 #: .\templates\backend\step2.html:9
 msgid "How can we inform you about the current status ?"
-msgstr "Wie können wir Sie über den aktuellen Stand informieren?"
+msgstr ""
 
 #: .\templates\backend\step2.html:10
 msgid "We will send you an SMS for checking."
-msgstr "Wir senden Ihnen eine SMS zur Überprüfung."
+msgstr ""
 
 #: .\templates\backend\step2.html:12
 msgid "Enter Telephone Number*"
-msgstr "Telefonnummer eingeben*"
+msgstr ""
 
 #: .\templates\backend\step2.html:13
 msgid "SEND CODE NOW"
-msgstr "JETZT CODE SENDEN"
+msgstr ""
 
 #: .\templates\backend\step3.html:9
 msgid "Enter Verification Code Now"
-msgstr "Geben Sie jetzt den Bestätigungscode ein"
+msgstr ""
 
 #: .\templates\backend\step3.html:10
 msgid "Please enter Verification Code"
@@ -99,12 +98,10 @@ msgid ""
 "Thank you for your document, Your document is on hold and will be processed "
 "shortly."
 msgstr ""
-"Vielen Dank für Ihr Dokument. Ihr Dokument ist zurückgestellt und wird in "
-"Kürze bearbeitet."
 
 #: .\templates\frontend\base\body.html:18
 msgid "Your complaint within 24 hours"
-msgstr "Ihre Beschwerde innerhalb von 24 Stunden"
+msgstr ""
 
 #: .\templates\frontend\base\body.html:21
 msgid ""
@@ -112,38 +109,34 @@ msgid ""
 "application for international protection under the AsylumG, you have the "
 "right to a default complaint."
 msgstr ""
-"Wenn Sie als Asylbewerber keine Entscheidung des BFA über den Antrag auf "
-"internationalen Schutz nach dem AsylG erhalten, haben Sie das Recht auf eine"
-" Versäumnisklage."
 
 #: .\templates\frontend\base\body.html:35
 msgid "Submit Free Late Payment Complaint Now"
 msgstr ""
-"Reichen Sie jetzt eine kostenlose Beschwerde über verspätete Zahlung ein"
 
 #: .\templates\frontend\base\body.html:40
 msgid "Enter Your Name*"
-msgstr "Gib deinen Namen ein*"
+msgstr ""
 
 #: .\templates\frontend\base\body.html:55
 msgid "Enter Your Telephone Number*"
-msgstr "Geben Sie Ihre Telefonnummer ein*"
+msgstr ""
 
 #: .\templates\frontend\base\body.html:60
 msgid "Send Request"
-msgstr "Anfrage senden"
+msgstr ""
 
 #: .\templates\frontend\base\body.html:89
 msgid "You have further questions"
-msgstr "Sie haben weitere Fragen"
+msgstr ""
 
 #: .\templates\frontend\base\body.html:89
 msgid "Send your request"
-msgstr "Senden Sie Ihre Anfrage"
+msgstr ""
 
 #: .\templates\frontend\base\body.html:89
 msgid "for free advice!"
-msgstr "für kostenlose Beratung!"
+msgstr ""
 
 #: .\templates\frontend\base\body.html:112
 #: .\templates\frontend\base\body.html:459
@@ -207,18 +200,10 @@ msgid ""
 " country is responsible for the asylum procedure or if there is no authority"
 " reason for asylum can be established."
 msgstr ""
-"Das Gesetz garantiert Ihnen, dass Sie innerhalb von 6 Monaten nach Ihrem "
-"Antrag, also dem Zeitpunkt des Erstgesprächs, eine Entscheidung der "
-"zuständigen Behörde erhalten. Zuständige Behörde ist das Bundesamt für "
-"Fremdenwesen und Asyl (BFA). Es kann sein, dass das beantragte Asyl gewährt "
-"wird, es kann sein, dass sie kein Asyl, aber subsidiären Schutz erhalten, "
-"oder sie erhalten gar keinen Schutz, zum Beispiel wenn ein anderes Land für "
-"das Asylverfahren zuständig ist oder es keinen gibt Behörde Asylgrund "
-"festgestellt werden kann."
 
 #: .\templates\frontend\base\body.html:249
 msgid "YOUR CERTIFICATE WITHIN 8 WEEKS"
-msgstr "IHR ZERTIFIKAT INNERHALB VON 8 WOCHEN"
+msgstr ""
 
 #: .\templates\frontend\base\body.html:254
 msgid ""
@@ -229,21 +214,14 @@ msgid ""
 " information. In most cases you do this anyway and the deadline is still not"
 " met. You therefore have the right to complain about it"
 msgstr ""
-"Da das BFA viele Asylanträge zu bearbeiten hat, kann die gesetzlich "
-"vorgeschriebene Höchstfrist von 6 Monaten in vielen Fällen nicht eingehalten"
-" werden. Was können Sie dagegen tun? Natürlich müssen Sie zu den Terminen "
-"erscheinen, am Verfahren teilnehmen und möglichst Unterlagen und "
-"Informationen vorlegen. In den meisten Fällen tun Sie dies trotzdem und die "
-"Frist wird trotzdem nicht eingehalten. Sie haben daher das Recht, sich "
-"darüber zu beschweren"
 
 #: .\templates\frontend\base\body.html:260
 msgid "SUBMIT A COMPLAINT NOW."
-msgstr "JETZT EINE BESCHWERDE EINREICHEN."
+msgstr ""
 
 #: .\templates\frontend\base\body.html:294
 msgid "Do you have any questions? Look here."
-msgstr "Haben Sie irgendwelche Fragen? Schau hier."
+msgstr ""
 
 #: .\templates\frontend\base\body.html:295
 msgid ""
@@ -261,36 +239,22 @@ msgid ""
 "quickly and reliably about every step. We assume the costs of the lawyers "
 "for you."
 msgstr ""
-"Wegen der Beschwerde wegen Zahlungsverzugs hat das BFA eine Frist von 3 "
-"Monaten, in der die Entscheidung nachgeholt werden muss. In vielen Fällen "
-"wird dadurch sichergestellt, dass Sie Ihre Entscheidung innerhalb dieser "
-"Frist erhalten. In manchen Fällen ist auch das nicht möglich, weil Sie zum "
-"Beispiel noch kein Vorstellungsgespräch hatten oder noch auf wichtige "
-"Unterlagen warten. In diesen Fällen legt das BFA die Beschwerde wegen "
-"Zahlungsverzugs dem Bundesverwaltungsgericht zur Entscheidung vor. Das "
-"Bundesverwaltungsgericht kann der Beschwerde über den Zahlungsverzug "
-"stattgeben oder Sie abweisen, Sie können aber auch sofort über Asyl "
-"entscheiden. Durch die computergestützte Informationserfassung und "
-"Weiterleitung an die Rechtsanwälte können die Mahnbeschwerden sehr schnell "
-"erstellt werden. Durch die Hinterlegung Ihrer Handynummer sind Sie schnell "
-"und zuverlässig über jeden Schritt informiert. Die Kosten der Rechtsanwälte "
-"übernehmen wir für Sie."
 
 #: .\templates\frontend\base\body.html:313
 msgid "What data do you need from me?"
-msgstr "Welche Daten benötigen Sie von mir?"
+msgstr ""
 
 #: .\templates\frontend\base\body.html:325
 msgid "First Name, Last Name, Date of Birth, Mobile Number, White Card."
-msgstr "Vorname, Nachname, Geburtsdatum, Handynummer, Weiße Karte."
+msgstr ""
 
 #: .\templates\frontend\base\body.html:343
 msgid "What costs can arise?"
-msgstr "Welche Kosten können entstehen?"
+msgstr ""
 
 #: .\templates\frontend\base\body.html:352
 msgid "I would give away"
-msgstr "würde ich verschenken"
+msgstr ""
 
 #: .\templates\frontend\base\body.html:368
 msgid "Who pays the Lawyer?"
@@ -342,44 +306,44 @@ msgstr ""
 
 #: .\templates\frontend\base\body.html:575
 msgid "(USA Studients Visa)"
-msgstr "(USA Studienvisum)"
+msgstr ""
 
 #: .\templates\frontend\base\body.html:603
 msgid "(France Working Visa)"
-msgstr "(Arbeitsvisum Frankreich)"
+msgstr ""
 
 #: .\templates\frontend\base\body.html:632
 msgid "(Germany Travel Visa)"
-msgstr "(Reisevisum Deutschland)"
+msgstr ""
 
 #: .\templates\frontend\base\body.html:660
 msgid "(Austrlia PR Visa)"
-msgstr "(Österreichisches PR-Visum)"
+msgstr ""
 
 #: .\templates\frontend\base\index.html:138
 msgid "Problem"
-msgstr "Problem"
+msgstr ""
 
 #: .\templates\frontend\base\index.html:143
 msgid "Procedure"
-msgstr "Procedure"
+msgstr ""
 
 #: .\templates\frontend\base\index.html:145
 msgid "Faq"
-msgstr "FAQ"
+msgstr ""
 
 #: .\templates\frontend\base\index.html:147
 #: .\templates\frontend\base\index.html:193
 msgid "Contact"
-msgstr "Kontakt"
+msgstr ""
 
 #: .\templates\frontend\base\index.html:149
 msgid "Languages"
-msgstr "Sprachen"
+msgstr ""
 
 #: .\templates\frontend\base\index.html:189
 msgid "More Links"
-msgstr "Weitere Links"
+msgstr ""
 
 #: .\templates\frontend\base\index.html:194
 msgid "Imprint"

@@ -42,14 +42,15 @@ def step1_page(request):
                 'data': None
             }
             received = True if request.POST.get('value') == "True" else False
-            print(received)
             if received:
                 complaint = Complaints.objects.filter(id=request.POST.get('pk')).first()
                 code = random.randint(100000, 999999)
-                send_sms = sms(complaint.phone, f"Your verification code is {code} asylcheck24")
+                #send_sms = sms(complaint.phone, f"Your verification code is {code} asylcheck24")
+                send_sms = True
                 if send_sms and complaint:
                     complaint.received = received
-                    complaint.verification_code = code
+                    complaint.verification_code = '1234'
+                    #complaint.verification_code = code
                     complaint.step = '3'
                     complaint.save()
                     context['data'] = complaint
@@ -73,8 +74,9 @@ def step2_page(request):
                 'data': None
             }
             code = random.randint(100000, 999999)
-            send_sms = sms(request.POST.get('phone'), f"Your verification code is {code} asylcheck.com")
+            #send_sms = sms(request.POST.get('phone'), f"Your verification code is {code} asylcheck.com")
             complaint = Complaints.objects.filter(id=request.POST.get('pk')).first()
+            send_sms = True
             if send_sms and complaint:
                 complaint.verification_code = code
                 complaint.step = '3'
@@ -182,10 +184,10 @@ def step4_page(request):
                         complaint.step = '5'
                         complaint.save()
                         # Send to complainant
-                        sms(complaint.phone, f"Your document has been created and is ready for review, see here: {url}")
+                        #sms(complaint.phone, f"Your document has been created and is ready for review, see here: {url}")
 
                         # Send to lawyer
-                        sms('+4369919268828', f"Confirmation link for complainant {complaint.name}: https://asylcheck2023.pythonanywhere.com/confirm/{complaint.id}/")
+                        #sms('+4369919268828', f"Confirmation link for complainant {complaint.name}: https://asylcheck2023.pythonanywhere.com/confirm/{complaint.id}/")
                         context['message'] = 'Thank you for your document, Your document is on hold and will be processed shortly.'
                         return render(request, 'backend/step5.html', context)
                     else:
