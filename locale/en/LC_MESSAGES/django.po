@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-05-08 13:13+0800\n"
+"POT-Creation-Date: 2023-05-08 13:27+0800\n"
 "PO-Revision-Date: 2023-05-04 20:03+0000\n"
 "Last-Translator:   <admin@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -98,9 +98,7 @@ msgid "You have successfully confirmed complainant"
 msgstr ""
 
 #: .\templates\backend\step5.html:12
-msgid ""
-"Thank you for your document, Your document is on hold and will be processed "
-"shortly."
+msgid "Thanks for your Data! We will work on it shortly!"
 msgstr ""
 
 #: .\templates\frontend\base\body.html:18

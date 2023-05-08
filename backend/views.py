@@ -188,7 +188,7 @@ def step4_page(request):
 
                         # Send to lawyer
                         #sms('+4369919268828', f"Confirmation link for complainant {complaint.name}: https://asylcheck2023.pythonanywhere.com/confirm/{complaint.id}/")
-                        context['message'] = 'Thank you for your document, Your document is on hold and will be processed shortly.'
+                        context['message'] = 'Thanks for your Data! We will work on it shortly!'
                         return render(request, 'backend/step5.html', context)
                     else:
                         return JsonResponse({'statusMsg': 'Invalid File.'}, status=400)

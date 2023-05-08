@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-05-08 13:13+0800\n"
-"PO-Revision-Date: 2023-05-08 13:15+0000\n"
+"POT-Creation-Date: 2023-05-08 13:27+0800\n"
+"PO-Revision-Date: 2023-05-08 13:27+0000\n"
 "Last-Translator:   <admin@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
@@ -101,12 +101,8 @@ msgid "You have successfully confirmed complainant"
 msgstr "Sie haben den Beschwerdeführer erfolgreich bestätigt"
 
 #: .\templates\backend\step5.html:12
-msgid ""
-"Thank you for your document, Your document is on hold and will be processed "
-"shortly."
-msgstr ""
-"Vielen Dank für Ihr Dokument. Ihr Dokument ist zurückgestellt und wird in "
-"Kürze bearbeitet."
+msgid "Thanks for your Data! We will work on it shortly!"
+msgstr "Danke für deine Daten! Wir werden in Kürze daran arbeiten!"
 
 #: .\templates\frontend\base\body.html:18
 msgid "Your complaint within 24 hours"
@@ -256,7 +252,6 @@ msgid "SUBMIT A COMPLAINT NOW."
 msgstr "JETZT EINE BESCHWERDE EINREICHEN."
 
 #: .\templates\frontend\base\body.html:294
-#| msgid "Do you have any questions ? Look here."
 msgid "Do you have any questions? Look here."
 msgstr "Haben Sie irgendwelche Fragen ? Schau hier."
 
@@ -1626,6 +1621,13 @@ msgstr ""
 #: .\venv\Lib\site-packages\django\views\templates\default_urlconf.html:249
 msgid "Connect, get help, or contribute"
 msgstr ""
+
+#~ msgid ""
+#~ "Thank you for your document, Your document is on hold and will be processed "
+#~ "shortly."
+#~ msgstr ""
+#~ "Vielen Dank für Ihr Dokument. Ihr Dokument ist zurückgestellt und wird in "
+#~ "Kürze bearbeitet."
 
 #~ msgid ""
 #~ "Unfortunately, the BFA regularly does not comply with the statutory "
