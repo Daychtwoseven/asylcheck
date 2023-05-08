@@ -42,7 +42,7 @@ def step1_page(request):
                 'data': None
             }
             received = True if request.POST.get('value') == "True" else False
-            if received:
+            if not received:
                 complaint = Complaints.objects.filter(id=request.POST.get('pk')).first()
                 code = random.randint(100000, 999999)
                 #send_sms = sms(complaint.phone, f"Your verification code is {code} asylcheck24")

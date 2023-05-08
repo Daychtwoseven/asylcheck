@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-05-04 07:37+0800\n"
+"POT-Creation-Date: 2023-05-08 10:39+0800\n"
 "PO-Revision-Date: 2023-04-03 23:57+0000\n"
 "Last-Translator:   <admin@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -71,6 +71,10 @@ msgstr ""
 
 #: .\templates\backend\step3.html:13
 msgid "CONFIRM CODE NOW"
+msgstr ""
+
+#: .\templates\backend\step4.html:8
+msgid "Scan the Asylum ID"
 msgstr ""
 
 #: .\templates\backend\step4.html:14
