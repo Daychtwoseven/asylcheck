@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-05-08 10:39+0800\n"
-"PO-Revision-Date: 2023-05-08 10:54+0000\n"
+"POT-Creation-Date: 2023-05-08 13:13+0800\n"
+"PO-Revision-Date: 2023-05-08 13:15+0000\n"
 "Last-Translator:   <admin@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
@@ -156,7 +156,6 @@ msgid "Our approach"
 msgstr "Unser Vorgehen"
 
 #: .\templates\frontend\base\body.html:115
-#: .\templates\frontend\base\body.html:463
 msgid ""
 "For you, we offer a service that you can use to bring a complaint online."
 msgstr ""
@@ -257,7 +256,6 @@ msgid "SUBMIT A COMPLAINT NOW."
 msgstr "JETZT EINE BESCHWERDE EINREICHEN."
 
 #: .\templates\frontend\base\body.html:294
-#, fuzzy
 #| msgid "Do you have any questions ? Look here."
 msgid "Do you have any questions? Look here."
 msgstr "Haben Sie irgendwelche Fragen ? Schau hier."
@@ -358,27 +356,27 @@ msgstr "Senden Sie uns Ihre Anfrage"
 msgid "for free advice."
 msgstr "für kostenlose Beratung"
 
-#: .\templates\frontend\base\body.html:518
+#: .\templates\frontend\base\body.html:517
 msgid "(Canada Studients Visa)"
 msgstr "(Kanadisches Studienvisum)"
 
-#: .\templates\frontend\base\body.html:547
+#: .\templates\frontend\base\body.html:546
 msgid "(Singapore PR Visa)"
 msgstr "(Singapur PR-Visum)"
 
-#: .\templates\frontend\base\body.html:575
+#: .\templates\frontend\base\body.html:574
 msgid "(USA Studients Visa)"
 msgstr "(USA Studienvisum)"
 
-#: .\templates\frontend\base\body.html:603
+#: .\templates\frontend\base\body.html:602
 msgid "(France Working Visa)"
 msgstr "(Arbeitsvisum Frankreich)"
 
-#: .\templates\frontend\base\body.html:632
+#: .\templates\frontend\base\body.html:631
 msgid "(Germany Travel Visa)"
 msgstr "(Reisevisum Deutschland)"
 
-#: .\templates\frontend\base\body.html:660
+#: .\templates\frontend\base\body.html:659
 msgid "(Austrlia PR Visa)"
 msgstr "(Österreichisches PR-Visum)"
 

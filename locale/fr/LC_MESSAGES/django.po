@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-05-08 10:39+0800\n"
+"POT-Creation-Date: 2023-05-08 13:13+0800\n"
 "PO-Revision-Date: 2023-04-03 23:57+0000\n"
 "Last-Translator:   <admin@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -151,7 +151,6 @@ msgid "Our approach"
 msgstr ""
 
 #: .\templates\frontend\base\body.html:115
-#: .\templates\frontend\base\body.html:463
 msgid ""
 "For you, we offer a service that you can use to bring a complaint online."
 msgstr ""
@@ -303,27 +302,27 @@ msgstr ""
 msgid "for free advice."
 msgstr ""
 
-#: .\templates\frontend\base\body.html:518
+#: .\templates\frontend\base\body.html:517
 msgid "(Canada Studients Visa)"
 msgstr ""
 
-#: .\templates\frontend\base\body.html:547
+#: .\templates\frontend\base\body.html:546
 msgid "(Singapore PR Visa)"
 msgstr ""
 
-#: .\templates\frontend\base\body.html:575
+#: .\templates\frontend\base\body.html:574
 msgid "(USA Studients Visa)"
 msgstr ""
 
-#: .\templates\frontend\base\body.html:603
+#: .\templates\frontend\base\body.html:602
 msgid "(France Working Visa)"
 msgstr ""
 
-#: .\templates\frontend\base\body.html:632
+#: .\templates\frontend\base\body.html:631
 msgid "(Germany Travel Visa)"
 msgstr ""
 
-#: .\templates\frontend\base\body.html:660
+#: .\templates\frontend\base\body.html:659
 msgid "(Austrlia PR Visa)"
 msgstr ""
 
