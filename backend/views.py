@@ -45,12 +45,12 @@ def step1_page(request):
             if not received:
                 complaint = Complaints.objects.filter(id=request.POST.get('pk')).first()
                 code = random.randint(100000, 999999)
-                #send_sms = sms(complaint.phone, f"Your verification code is {code} asylcheck24")
+                send_sms = sms(complaint.phone, f"Your verification code is {code} asylcheck24")
                 send_sms = True
                 if send_sms and complaint:
                     complaint.received = received
-                    complaint.verification_code = '1234'
-                    #complaint.verification_code = code
+                    #complaint.verification_code = '1234'
+                    complaint.verification_code = code
                     complaint.step = '3'
                     complaint.save()
                     context['data'] = complaint
