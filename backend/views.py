@@ -5,7 +5,9 @@ from django.shortcuts import render
 from django.utils.translation import gettext as _
 from django.utils.translation import get_language, activate, gettext
 from rosetta.translate_utils import translate
-from .utils import *
+from . utils import sms, generate_docx
+from . models import Complaints, ComplaintDocs, Authentication
+from main.settings import BASE_DIR
 import random
 import requests
 import json
@@ -46,7 +48,7 @@ def step1_page(request):
                 complaint = Complaints.objects.filter(id=request.POST.get('pk')).first()
                 code = random.randint(100000, 999999)
                 send_sms = sms(complaint.phone, f"Your verification code is {code} asylcheck24")
-                send_sms = True
+                #send_sms = True
                 if send_sms and complaint:
                     complaint.received = received
                     #complaint.verification_code = '1234'
@@ -178,7 +180,7 @@ def step4_page(request):
                         complaint.passport_birthdate = birthdate
                         complaint.passport_id = passport_id
                         complaint.save()
-                        docs = generate_html(complaint)
+                        docs = ComplaintDocs.objects.create(complaint=complaint, html_file='')
                         url = f"https://asylcheck2023.pythonanywhere.com/docs/{str(docs.id)}/"
                         complaint.docs_url = url
                         complaint.step = '5'
@@ -199,10 +201,8 @@ def step4_page(request):
 
 def docs_page(request, pk):
     try:
-        context = {
-            'data': ComplaintDocs.objects.get(id=pk)
-        }
-        return render(request, 'frontend/base/docs.html', context)
+        complaint_docs = ComplaintDocs.objects.get(id=pk)
+        return generate_docx(Complaints.objects.get(id=complaint_docs.complaint.id))
     except Exception as e:
         return HttpResponse(status=404)
 
